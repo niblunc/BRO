@@ -11,9 +11,14 @@ multi_sess = True
 RUN_BIDS = False 
 gen_report = True
 
-def generate_report(bids_dict):
-    df = pd.DataFrame.from_dict(bids_dict, orient="index")
-    print(df)
+def generate_report(bids_dict, multi_sess):
+    if multi_sess==True:
+        print("BIDS Subjects -")
+        for sess in bids_dict:
+            sub_string = ",".join(sorted(bids_dict[sess]))
+            print("SESSION %s | SUBJECT COUNT %s:"%(sess.split("-")[1], len(bids_dict[sess])))
+            print(sub_string)
+        
 if multi_sess == True:
     sessions = ["ses-1", "ses-2"]
     bids_subjects = {}
@@ -42,5 +47,5 @@ heudiconv -b -d /base_dir/projects/niblab/bids_projects/Experiments/BRO/DICOM/se
             run_batch = subprocess.Popen(["sbatch", BATCH_CMD, BIDS_CMD])
 
     if gen_report == True:
-        generate_report(bids_subjects)
+        generate_report(bids_subjects, multi_sess)
         
