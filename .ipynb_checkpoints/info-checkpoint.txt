@@ -5,7 +5,15 @@ ses-1:
 sub-001  sub-003  sub-008  sub-010  sub-012  sub-015  sub-028  sub-030  sub-032  sub-034  sub-037  sub-039
 sub-002  sub-006  sub-009  sub-011  sub-014  sub-016  sub-029  sub-031  sub-033  sub-036  sub-038  sub-040
 
+BIDS:
+sub-009  sub-012  sub-034 
+sub-011  sub-015  sub-037
+
 ses-2:
 sub-001  sub-003  sub-008  sub-010  sub-012  sub-015  sub-023  sub-030  sub-032  sub-034  sub-038  sub-041
 sub-002  sub-006  sub-009  sub-011  sub-014  sub-016  sub-028  sub-031  sub-033  sub-036  sub-039
+
+BIDS:
+sub-011  sub-015  sub-028  sub-036  sub-041  sub-008  sub-012  sub-016  sub-030  sub-038
+sub-010  sub-014  sub-023  sub-031  sub-039
 
