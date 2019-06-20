@@ -4,12 +4,12 @@ import glob, os
 import subprocess
 import pandas as pd 
 
-bids_dir_path = "/projects/niblab/bids_projects/Experiments/BRO/BIDS"
+bids_dir_path = "/projects/niblab/bids_projects/Experiments/BRO/BIDS2"
 dcm_dir_path = "/projects/niblab/bids_projects/Experiments/BRO/DICOM"
 
 multi_sess = True
-RUN_BIDS = False 
-gen_report = True
+RUN_BIDS = True
+gen_report = False
 
 def generate_report(bids_dict, multi_sess):
     if multi_sess==True:
@@ -42,7 +42,7 @@ if multi_sess == True:
             BIDS_CMD = "singularity exec -B /:/base_dir /projects/niblab/bids_projects/Singularity_Containers/heudiconv_05_2019.simg \
 heudiconv -b -d /base_dir/projects/niblab/bids_projects/Experiments/BRO/DICOM/ses-{session}/sub-{subject}/*dcm -s %s -ss %s \
 -f /base_dir/projects/niblab/bids_projects/Experiments/BRO/BIDS/code/BRO_heuristic.py \
--c dcm2niix -o /base_dir/projects/niblab/bids_projects/Experiments/BRO/BIDS"%(sub_ids,sess.split("-")[1])
+-c dcm2niix -o /base_dir/projects/niblab/bids_projects/Experiments/BRO/BIDS2"%(sub_ids,sess.split("-")[1])
             print(BIDS_CMD)
             run_batch = subprocess.Popen(["sbatch", BATCH_CMD, BIDS_CMD])
 
