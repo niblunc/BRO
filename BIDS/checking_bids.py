@@ -8,7 +8,7 @@ bids_dir_path = "/projects/niblab/bids_projects/Experiments/BRO/BIDS2"
 dcm_dir_path = "/projects/niblab/bids_projects/Experiments/BRO/DICOM"
 
 multi_sess = True
-RUN_BIDS = True
+RUN_BIDS = False
 gen_report = False
 
 def generate_report(bids_dict, multi_sess):
