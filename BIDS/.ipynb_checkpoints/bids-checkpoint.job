@@ -18,6 +18,6 @@ fi
 
 
 singularity exec -B /:/base_dir /projects/niblab/bids_projects/Singularity_Containers/heudiconv_05_2019.simg \
-heudiconv -b -d /base_dir/projects/niblab/bids_projects/Experiments/BRO/DICOM/ses-{session}/sub-{subject}/*dcm -s $id -ss 1 \
+heudiconv -b -d /base_dir/projects/niblab/bids_projects/Experiments/BRO/DICOM/ses-{session}/sub-{subject}/*dcm -s $id -ss ${1} \
 -f /base_dir/projects/niblab/bids_projects/Experiments/BRO/BIDS/code/BRO_heuristic.py \
 -c dcm2niix -o /base_dir/projects/niblab/bids_projects/Experiments/BRO/BIDS
