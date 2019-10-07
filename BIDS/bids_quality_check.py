@@ -60,10 +60,9 @@ def dict_make(sessions, sub_dirs):
                     #print("Found bad functional file...........")
                     if "training" in task:
                         line="File:{} \t Volume:{}".format(filename, vol)
-                        print(line)
                     else:
                         line="File:{} \t\t Volume:{}".format(filename, vol)
-                        print(line)
+                    #print(line)
                     #outfile.write(line+"\n")
 
                     bad_funcs.append(temp_tuple)
@@ -90,7 +89,7 @@ def dict_make(sessions, sub_dirs):
             nii_ct = len(fmap_nii)
             qa_dict[sess_id][sub_id]["fmap"] = nii_ct
         
-        #print("SESSION {} DICTIONARY: \n{}\n".format(sess_id,qa_dict[sess_id]))
+    #print("SESSION {} DICTIONARY: \n{}\n".format(sess_id,qa_dict[sess_id]))
     #print(vol_dict) 
     #outfile.close()
     return qa_dict
@@ -98,10 +97,35 @@ def dict_make(sessions, sub_dirs):
         
 def analyze_data(qa_dict):
     for sess_id in qa_dict:
+        zero_df = pd.DataFrame()
+        partial_df = pd.DataFrame()
+        no_zero_df = pd.DataFrame()
+
+        
+        print(">>> {}.......".format(sess_id))
         df = pd.DataFrame(qa_dict[sess_id])
         #print(df.head())
         #df.T.to_csv("bro_bids_{}.csv".format(sess_id), sep="\t")
-    
+        
+        for sub_id in df.columns:
+            #zero=df[sub_id] == 0
+
+            all_zero=(df[sub_id]==0).all()
+            any_zero=(df[sub_id]==0).any()
+            
+            if all_zero == True:
+                zero_df[sub_id] = df[sub_id]
+            elif any_zero == True:
+                partial_df[sub_id] = df[sub_id]
+            else: # should have all numbers 
+                no_zero_df[sub_id] = df[sub_id]
+            
+            
+
+        #print('Zero files found list: {} \nSome missing files list: {} \nAll files found:{} \n'.format(all_lst, partial_lst, no_z_lst))  
+        print(zero_df)
+        print(partial_df)
+        print(no_zero_df)
 def main():
     # get paths and subject directory paths
     BIDS_PATH = "/projects/niblab/bids_projects/Experiments/bro/bids_"
@@ -110,5 +134,5 @@ def main():
     # get the multiple sessions
     sessions=['ses-1', 'ses-2']
     qa_dict = dict_make(sessions, sub_dirs) 
-    #analyze_data(qa_dict)
+    analyze_data(qa_dict)
 main()
