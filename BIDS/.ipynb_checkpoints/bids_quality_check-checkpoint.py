@@ -74,7 +74,7 @@ def dict_make(sessions, sub_dirs):
                 if sub_id not in vol_dict[sess_id]:  
                     vol_dict[sess_id][sub_id] = {}
                 vol_dict[sess_id][sub_id]["FILES"] = bad_funcs
-               
+            
             # Anatomical files: anat/
             anat_nii=glob.glob("/projects/niblab/bids_projects/Experiments/bro/bids_/{}/{}/anat/*.nii.gz".format(sub_id, sess_id))
             #print(anat_nii)
@@ -120,12 +120,15 @@ def analyze_data(qa_dict):
             else: # should have all numbers 
                 no_zero_df[sub_id] = df[sub_id]
             
-            
-
-        #print('Zero files found list: {} \nSome missing files list: {} \nAll files found:{} \n'.format(all_lst, partial_lst, no_z_lst))  
         print(zero_df)
         print(partial_df)
         print(no_zero_df)
+        filename="/projects/niblab/bids_projects/Experiments/bro/bids_/derivatives/bro_{}_".format(sess_id)
+        zero_df.T.to_csv(filename+"missing.csv", sep="\t")
+        partial_df.T.to_csv(filename+"partial_missing.csv", sep="\t")
+        no_zero_df.T.to_csv(filename+"all_found.csv", sep="\t")
+        #print('Zero files found list: {} \nSome missing files list: {} \nAll files found:{} \n'.format(all_lst, partial_lst, no_z_lst))  
+        
 def main():
     # get paths and subject directory paths
     BIDS_PATH = "/projects/niblab/bids_projects/Experiments/bro/bids_"
