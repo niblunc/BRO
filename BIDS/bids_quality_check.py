@@ -9,7 +9,7 @@ def dict_make(sessions, sub_dirs):
     qa_dict = {}
     vol_dict = {}
     # loop through each sessions we have
-    #outfile=open("/projects/niblab/bids_projects/Experiments/bro/bids_/derivatives/bad_volumes.txt", 'w')
+    outfile=open("/projects/niblab/bids_projects/Experiments/bro/bids_/derivatives/bad_volumes.txt", 'w')
     for sess_id in sessions:
         if sess_id not in qa_dict:
             qa_dict[sess_id] = {}
@@ -63,7 +63,7 @@ def dict_make(sessions, sub_dirs):
                     else:
                         line="File:{} \t\t Volume:{}".format(filename, vol)
                     #print(line)
-                    #outfile.write(line+"\n")
+                    outfile.write(line+"\n")
 
                     bad_funcs.append(temp_tuple)
             
@@ -91,7 +91,7 @@ def dict_make(sessions, sub_dirs):
         
     #print("SESSION {} DICTIONARY: \n{}\n".format(sess_id,qa_dict[sess_id]))
     #print(vol_dict) 
-    #outfile.close()
+    outfile.close()
     return qa_dict
         
         
