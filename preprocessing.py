@@ -17,30 +17,6 @@ import shutil
 
 
 
-#________________________________________________________________________________________
-# This method, check_output_directories(sub), checks the ~/derivatives directory
-# and will make relevant directories if we need to {anat/, func/, motion_assesment/ Analysis/},
-# as an argument it takes the subject ID.
-#________________________________________________________________________________________
-
-def check_output_directories(sub):
-    # check for motion_assesment directory
-
-    if not os.path.exists(os.path.join(derivatives_dir, sub)):
-        os.makedirs(os.path.join(derivatives_dir, sub))
-
-    #if arglist["SES"] != False:
-        #if not os.path.exists(os.path.join(derivatives_dir, sub, arglist["SES"])):
-            #os.makedirs(os.path.join(derivatives_dir, sub, arglist["SES"]))
-
-    if not os.path.exists(os.path.join(anat_output_path)):
-        os.makedirs(os.path.join(anat_output_path))
-    if not os.path.exists(os.path.join(func_output_path)):
-        os.makedirs(os.path.join(func_output_path))
-    if not os.path.exists(os.path.join(func_output_path,'motion_assessment')):
-        os.makedirs(os.path.join(func_output_path,  'motion_assessment'))
-    if not os.path.exists(os.path.join(func_output_path,'Analysis')):
-        os.makedirs(os.path.join(func_output_path,  'Analysis'))
 
 
 
@@ -63,10 +39,63 @@ def set_parser():
                         default=False, help='output 1 column motion parameter text files')
     parser.add_argument('-bids',dest='BIDS',
                         default=False, help='enter path for bids/ directory')
+    parser.add_argument('-anat',dest='ANAT', default=False, action='store_true',
+                        help='add flag if you want to move the anatomical image into the derivatives folder from fmriprep')
     args = parser.parse_args()
     arglist={}
     for a in args._get_kwargs():
         arglist[a[0]]=a[1]
+
+#________________________________________________________________________________________
+# This method, check_output_directories(sub), checks the ~/derivatives directory
+# and will make relevant directories if we need to {anat/, func/, motion_assesment/ Analysis/},
+# as an argument it takes the subject ID.
+#________________________________________________________________________________________
+
+def check_output_directories(sub):
+    # check for motion_assesment directory
+
+    if not os.path.exists(os.path.join(derivatives_dir, sub)):
+        os.makedirs(os.path.join(derivatives_dir, sub))
+
+    ## Use this code if we divide subject directories by sessions
+    #if arglist["SES"] != False:
+        #if not os.path.exists(os.path.join(derivatives_dir, sub, arglist["SES"])):
+            #os.makedirs(os.path.join(derivatives_dir, sub, arglist["SES"]))
+
+    if not os.path.exists(os.path.join(anat_output_path)):
+        os.makedirs(os.path.join(anat_output_path))
+    if not os.path.exists(os.path.join(func_output_path)):
+        os.makedirs(os.path.join(func_output_path))
+    if not os.path.exists(os.path.join(func_output_path,'motion_assessment')):
+        os.makedirs(os.path.join(func_output_path,  'motion_assessment'))
+    if not os.path.exists(os.path.join(func_output_path,'Analysis')):
+        os.makedirs(os.path.join(func_output_path,  'Analysis'))
+
+
+def move_anat(sub, anat_fmri_path, anat_output_path):
+    if not os.path.exists(os.path.join(anat_output_path)):
+        os.makedirs(os.path.join(anat_output_path))
+    t1w_file = os.path.join(anat_fmri_path, "{}_desc-preproc_T1w.nii.gz".format(sub))
+    t1w_desc_file = os.path.join(anat_fmri_path, "{}_space-MNI152NLin2009cAsym_desc-preproc_T1w.nii.gz".format(sub))
+    try:
+        shutil.copy2(t1w_file, anat_output_path)
+        shutil.copy2(t1w_desc_file, anat_output_path)
+        print("copying anatomicals over.......")
+        print("{} ----------------> {} \n{} ----------------> {}".format(t1w_file, anat_output_path, t1w_desc_file, anat_output_path))
+        orig=os.path.join(anat_output_path, "{}_desc-preproc_T1w.nii.gz".format(sub))
+        highres=os.path.join(anat_output_path, "highres.nii.gz")
+        #print(highres)
+        os.rename(orig,highres)
+        print("{} renamed to ------------> {}".format(orig, highres))
+    except:
+        print(">>> error, passing")
+#________________________________________________________________________________________
+# This method, check_output_directories(sub), checks the ~/derivatives directory
+# and will make relevant directories if we need to {anat/, func/, motion_assesment/ Analysis/},
+# as an argument it takes the subject ID.
+#________________________________________________________________________________________
+
 
 
 def skull_strip(sub, func_input_path, func_output_path):
@@ -249,10 +278,14 @@ def main(SUB_IDS):
             out_dir = os.path.join(derivatives_dir, sub)
             func_input_path=os.path.join(fmriprep_dir, sub, arglist["SES"], "func")
 
+        anat_fmri_path = os.path.join(fmriprep_dir,sub,'anat')
         anat_output_path=os.path.join(out_dir, 'anat')
         func_output_path=os.path.join(out_dir,'func')
         motion_assessment_path=os.path.join(out_dir,'func','motion_assessment')
 
+
+        if args.ANAT != False:
+            move_anat(sub, anat_fmri_path, anat_output_path )
         if args.STRIP != False:
             skull_strip(sub, func_input_path, func_output_path)
         if args.MOCO != False:
