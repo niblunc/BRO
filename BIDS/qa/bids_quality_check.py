@@ -9,7 +9,7 @@ def dict_make(sessions, sub_dirs):
     qa_dict = {}
     vol_dict = {}
     # loop through each sessions we have
-    outfile=open("/projects/niblab/bids_projects/Experiments/bro/bids_/derivatives/bad_volumes.txt", 'w')
+    outfile=open("/projects/niblab/bids_projects/Experiments/bro/bids/derivatives/bad_volumes.txt", 'w')
     for sess_id in sessions:
         if sess_id not in qa_dict:
             qa_dict[sess_id] = {}
@@ -24,7 +24,7 @@ def dict_make(sessions, sub_dirs):
             
                 
             # Functional files: func/
-            funcs_nii=glob.glob("/projects/niblab/bids_projects/Experiments/bro/bids_/{}/{}/func/*.nii.gz".format(sub_id, sess_id))
+            funcs_nii=glob.glob("/projects/niblab/bids_projects/Experiments/bro/bids/{}/{}/func/*.nii.gz".format(sub_id, sess_id))
             #print(funcs_nii)
             bad_funcs = []
             
@@ -76,14 +76,14 @@ def dict_make(sessions, sub_dirs):
                 vol_dict[sess_id][sub_id]["FILES"] = bad_funcs
             
             # Anatomical files: anat/
-            anat_nii=glob.glob("/projects/niblab/bids_projects/Experiments/bro/bids_/{}/{}/anat/*.nii.gz".format(sub_id, sess_id))
+            anat_nii=glob.glob("/projects/niblab/bids_projects/Experiments/bro/bids/{}/{}/anat/*.nii.gz".format(sub_id, sess_id))
             #print(anat_nii)
             # add value to dict-
             nii_ct = len(anat_nii)
             qa_dict[sess_id][sub_id]["anat"] = nii_ct
             
             # Field mapping files: fmap/
-            fmap_nii=glob.glob("/projects/niblab/bids_projects/Experiments/bro/bids_/{}/{}/func/*.nii.gz".format(sub_id, sess_id))
+            fmap_nii=glob.glob("/projects/niblab/bids_projects/Experiments/bro/bids/{}/{}/func/*.nii.gz".format(sub_id, sess_id))
             #print(fmap_nii)
             # add value to dict-
             nii_ct = len(fmap_nii)
@@ -123,7 +123,7 @@ def analyze_data(qa_dict):
         print(zero_df)
         print(partial_df)
         print(no_zero_df)
-        filename="/projects/niblab/bids_projects/Experiments/bro/bids_/derivatives/bro_{}_".format(sess_id)
+        filename="/projects/niblab/bids_projects/Experiments/bro/bids/derivatives/bro_{}_".format(sess_id)
         zero_df.T.to_csv(filename+"missing.csv", sep="\t")
         partial_df.T.to_csv(filename+"partial_missing.csv", sep="\t")
         no_zero_df.T.to_csv(filename+"found.csv", sep="\t")
@@ -131,7 +131,7 @@ def analyze_data(qa_dict):
         
 def main():
     # get paths and subject directory paths
-    BIDS_PATH = "/projects/niblab/bids_projects/Experiments/bro/bids_"
+    BIDS_PATH = "/projects/niblab/bids_projects/Experiments/bro/bids"
     sub_dirs = glob.glob(os.path.join(BIDS_PATH, 'sub-*'))
     #print(sub_dirs)
     # get the multiple sessions
