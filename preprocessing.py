@@ -74,6 +74,8 @@ def skull_strip(sub, func_input_path, func_output_path):
     try:
         for nifti in glob.glob(os.path.join(func_input_path, '*-preproc_bold.nii.gz*')):
             # make our variables
+            print("NIFTI: ", nifti)
+            print(func_output_path)
             filename = nifti.split("/")[-1].split(".")[0]
             bet_name=filename+'_brain'
             # check if data exists already
@@ -85,7 +87,7 @@ def skull_strip(sub, func_input_path, func_output_path):
                 bet_cmd=("bet %s %s -F -m -f %s"%(nifti, bet_output, arglist["STRIP"]))
                 print(">>>-----> BET COMMAND:", bet_cmd)
                 shutil.copy(nifti, func_output_path)
-                os.system(bet_cmd)
+                ##os.system(bet_cmd)
     except FileNotFoundError:
         pass
         #print("BAD FILE PASSING")
@@ -105,10 +107,11 @@ def fd_check(sub, outfile, motion_assessment_path, out_bad_bold_list, derivative
         for nifti in glob.glob(os.path.join(func_output_path, '*_brain.nii.gz')):
             filename=nifti.split('.')[0]
             file = filename.split("/")[-1]
-            new_filename = file.split("_bold_")[0]
-            outlier_path = "%s/%s_outlier_output.txt"%(motion_assessment_path, file)
-            plot_path = "%s/%s_fd_plot"%(motion_assessment_path, file)
-            confound_path = "%s/%s_confound.txt"%(motion_assessment_path, file)
+            new_filename = file.split("_bold_")[0]#.split("_space")[0]
+            outlier_path = "%s/%s_outlier_output.txt"%(motion_assessment_path, new_filename)
+            plot_path = "%s/%s_fd_plot"%(motion_assessment_path, new_filename)
+            confound_path = "%s/%s_confound.txt"%(motion_assessment_path, new_filename)
+            print(new_filename)
             #need to get identifier for tasks and runs --rn for bevel, need to specify for versatility
             # set comparison param
             nvols_cmd="fslnvols " + nifti
@@ -117,10 +120,11 @@ def fd_check(sub, outfile, motion_assessment_path, out_bad_bold_list, derivative
             comparator = int(volume) *.25
             ## RUN 'fsl_motion_outliers' TO RETRIEVE MOTION CORRECTION ANALYSIS
             outlier_cmd = "fsl_motion_outliers -i %s  -o %s --fd --thresh=%s -p %s -v > %s"%(filename, confound_path, arglist["MOCO"], plot_path, outlier_path)
-            print(">>-->  RUNNING FSL MOTION OUTLIERS ")
-            print("COMMAND NVOLS: ", nvols_cmd)
-            print("OUTLIER CMD: ", outlier_cmd)
-            os.system(outlier_cmd)
+            #print(">>-->  RUNNING FSL MOTION OUTLIERS ")
+            #print("COMMAND NVOLS: ", nvols_cmd)
+            #print("OUTLIER CMD: ", outlier_cmd)
+            #os.system(outlier_cmd)
+
         ## EXAMINE OUTLIER FILE AND GRAB RELEVANT DATA
             with open(outlier_path, 'r') as f:
                 lines=f.readlines()
@@ -179,18 +183,20 @@ def get_motion_parameters(sub, fmriprep_path, motion_assessment_path, func_input
         outputdir = os.path.join(motion_assessment_path, "motion_parameters")
         if not os.path.exists(os.path.join(outputdir, 'motion_parameters')):
             os.makedirs(os.path.join(outputdir, 'motion_parameters'))
-        print(">>>>>>>FILEPATH: %s >>>>>>>>OUTPUT DIRECTORY: %s"%(func_input_path, outputdir))
+        #print(">>>>>>>FILEPATH: %s >>>>>>>>OUTPUT DIRECTORY: %s"%(func_input_path, outputdir))
         #os.chdir(filepath)
-        confounds = glob.glob(os.path.join(func_input_path, "*confounds.tsv"))
+        confounds = glob.glob(os.path.join(func_input_path, "*-confounds_regressors.tsv"))
         for run in confounds:
             print("-------> GRABBING NEW FILE:")
             print("FILE: ", run)
             df = pd.read_table(run)
-            moco_df=df[['X', 'Y', 'Z', 'RotX', 'RotY', 'RotZ']]
+            #trans_x, trans_y, trans_z, rot_x, rot_y, rot_z are the 6 rigid-body motion-correction parameters estimated by fMRIPrep
+            moco_df=df[['trans_x', 'trans_y', 'trans_z', 'rot_x', 'rot_y', 'rot_z']]
+            #moco_df=df[['X', 'Y', 'Z', 'RotX', 'RotY', 'RotZ']]
             moco_df.columns = ['moco0', 'moco1', 'moco2', 'moco3', 'moco4', 'moco5']
             print("DATAFRAME: \n ", moco_df.head())
-            filename = run.split('/')[-1].split("_bold_confounds")[0]
-            print("FILENAME:", filename)
+            filename = run.split('/')[-1].split("_desc")[0]
+            #print("FILENAME:", filename)
             write_files(filename, moco_df, outputdir)
             #print("RUN: ", run)
     except FileNotFoundError as not_found:
@@ -240,7 +246,7 @@ def main(SUB_IDS):
             out_dir = os.path.join(derivatives_dir, sub)
             func_input_path=os.path.join(fmriprep_dir, sub, "func")
         else:
-            out_dir = os.path.join(derivatives_dir, sub, arglist["SES"])
+            out_dir = os.path.join(derivatives_dir, sub)
             func_input_path=os.path.join(fmriprep_dir, sub, arglist["SES"], "func")
 
         anat_output_path=os.path.join(out_dir, 'anat')
