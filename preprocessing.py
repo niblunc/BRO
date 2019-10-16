@@ -41,6 +41,8 @@ def set_parser():
                         default=False, help='enter path for bids/ directory')
     parser.add_argument('-anat',dest='ANAT', default=False, action='store_true',
                         help='add flag if you want to move the anatomical image into the derivatives folder from fmriprep')
+    parser.add_argument('-dir',dest='DIR', default=False, action='store_true',
+                        help='add flag if you want to make the output directories')
     args = parser.parse_args()
     arglist={}
     for a in args._get_kwargs():
@@ -52,7 +54,7 @@ def set_parser():
 # as an argument it takes the subject ID.
 #________________________________________________________________________________________
 
-def check_output_directories(sub):
+def check_output_directories(sub,derivatives_dir, anat_output_path, func_output_path):
     # check for motion_assesment directory
 
     if not os.path.exists(os.path.join(derivatives_dir, sub)):
@@ -115,8 +117,8 @@ def skull_strip(sub, func_input_path, func_output_path):
                 print("Running bet on ", nifti)
                 bet_cmd=("bet %s %s -F -m -f %s"%(nifti, bet_output, arglist["STRIP"]))
                 print(">>>-----> BET COMMAND:", bet_cmd)
-                shutil.copy(nifti, func_output_path)
-                ##os.system(bet_cmd)
+                #shutil.copy(nifti, func_output_path)
+                os.system(bet_cmd)
     except FileNotFoundError:
         pass
         #print("BAD FILE PASSING")
@@ -152,7 +154,8 @@ def fd_check(sub, outfile, motion_assessment_path, out_bad_bold_list, derivative
             #print(">>-->  RUNNING FSL MOTION OUTLIERS ")
             #print("COMMAND NVOLS: ", nvols_cmd)
             #print("OUTLIER CMD: ", outlier_cmd)
-            #os.system(outlier_cmd)
+            if not os.path.exists(confound_path):
+                os.system(outlier_cmd)
 
         ## EXAMINE OUTLIER FILE AND GRAB RELEVANT DATA
             with open(outlier_path, 'r') as f:
@@ -283,7 +286,8 @@ def main(SUB_IDS):
         func_output_path=os.path.join(out_dir,'func')
         motion_assessment_path=os.path.join(out_dir,'func','motion_assessment')
 
-
+        if args.DIR == True:
+            check_output_directories(sub,derivatives_dir, anat_output_path, func_output_path)
         if args.ANAT != False:
             move_anat(sub, anat_fmri_path, anat_output_path )
         if args.STRIP != False:
