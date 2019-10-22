@@ -6,6 +6,7 @@ File:sub-006_ses-1_task-pe_run-2_bold.nii.gz 		 Volume:141
 File:sub-020_ses-1_task-pe_run-1_bold.nii.gz 		 Volume:50
 File:sub-031_ses-1_task-training_run-1_bold.nii.gz 	 Volume:228
 File:sub-031_ses-1_task-training_run-2_bold.nii.gz 	 Volume:231
+File:sub-054_ses-1_task-training_run-1_bold.nii.gz 	 Volume:65
 File:sub-055_ses-1_task-training_run-1_bold.nii.gz 	 Volume:239
 File:sub-055_ses-1_task-training_run-2_bold.nii.gz 	 Volume:237
 File:sub-055_ses-1_task-pe_run-1_bold.nii.gz 		 Volume:190

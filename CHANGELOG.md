@@ -9,22 +9,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 2019-09-01  
 ### Added
-- ses-1: 43 subjects in BIDS format available
-- ses-2: 50 subjects in BIDS format available
+- ses-1: 49 subjects in BIDS format available
+- ses-2: 51 subjects in BIDS format available
 
 ### Changed
-- sub-009: removed run-1 training task files in each session for bad volumes, extra run was available and used for replacement.  
-- sub-047: removed run-1 training task files for ses-1, extra run was available for replacement.
-- sub-050: for ses-1, 5 runs were available for pe task, first 3 had bad volumes, 4 and 5 are good. For ses-2, run-1 for training task had bad volumes, extra run was available for replacement.
-- sub-051: ses-1, 4 runs available for task pe, run-1 and run-3 had bad volumes, run-2 and run-4 are used for replacements.
-- sub-056: ses-1, run-2 file for pe task removed for bad volumes, replacement run unavailable.
-- sub-016: ses-2, run-1 had bad volumed, was removed, extra runs were available for replacement.
-- sub-023: ses-2, run-1 training task file removed for bad volume, replacement run unavailable.
-- sub-034: ses-2, run-2 pe task file removed for bad volume, replacement run file was available.
-- sub-039: ses-2, run-2 training task file removed for bad volume, replacement run file was available.
-- sub-041: ses-2, run-2 training task file removed for bad volume, replacement run file was available.
+- sub-009:
+  - removed run-1 training task files in each session for bad volumes, extra run was available and used for replacement.  
+- sub-047:
+  - removed run-1 training task files for ses-1, extra run was available for replacement.
+- sub-050:
+  - for ses-1, 5 runs were available for pe task, first 3 had bad volumes, 4 and 5 are good.
+  - for ses-2, run-1 for training task had bad volumes, extra run was available for replacement.
+- sub-051:
+  - ses-1, 4 runs available for task pe, run-1 and run-3 had bad volumes, run-2 and run-4 are used for replacements.
+- sub-056:
+  - ses-1, run-2 file for pe task removed for bad volumes, replacement run unavailable.
+- sub-016:
+  - ses-2, run-1 had bad volumed, was removed, extra runs were available for replacement.
+- sub-023:
+  - ses-2, run-1 training task file removed for bad volume, replacement run unavailable.
+- sub-034:
+  - ses-2, run-2 pe task file removed for bad volume, replacement run file was available.
+- sub-039:
+  - ses-2, run-2 training task file removed for bad volume, replacement run file was available.
+- sub-041:
+  - ses-2, run-2 training task file removed for bad volume, replacement run file was available.
 
 ### Errors
+- sub-010: missing func/ folder
 - sub-020: only 1 run for both training and pe tasks, volume for pe task is bad.
   * `File:sub-020_ses-1_task-pe_run-1_bold.nii.gz | Volume:50`  
 - sub-031: bad volumes for both training runs, ses-1, replacement runs unavailable.
