@@ -1,0 +1,7 @@
+participantID,s2_task-resting_vol,s2_task-resting_vol_check,s2_task-training_run-1_vol,s2_task-training_run-1_vol_check,s2_task-training_run-2_vol,s2_task-training_run-2_vol_check,s2_task-pe_run-1_vol,s2_task-pe_run-1_vol_check,s2_task-pe_run-2_vol,s2_task-pe_run-2_vol_check,s1_task-resting_vol,s1_task-resting_vol_check,s1_task-training_run-1_vol,s1_task-training_run-1_vol_check,s1_task-training_run-2_vol,s1_task-training_run-2_vol_check,s1_task-pe_run-1_vol,s1_task-pe_run-1_vol_check,s1_task-pe_run-2_vol,s1_task-pe_run-2_vol_check
+sub-006,147,pass,243,pass,243,pass,193,pass,193,pass,93,fail,182,fail,185,fail,141,fail,141,fail
+sub-020,,,,,,,,,,,147,pass,243,pass,,,50,fail,,
+sub-031,147,pass,243,pass,243,pass,193,pass,193,pass,147,pass,228,fail,231,fail,193,pass,193,pass
+sub-037,,,,,,,,,,,147,pass,243,pass,106,fail,,,,
+sub-052,147,pass,243,pass,243,pass,193,pass,193,pass,147,pass,243,pass,243,pass,131,fail,193,pass
+sub-055,147,pass,243,pass,243,pass,193,pass,193,pass,147,pass,239,fail,237,fail,190,fail,192,fail
