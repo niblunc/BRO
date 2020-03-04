@@ -1,0 +1,249 @@
+45.3417 	DATA 	Keypress: o
+45.3427 	Level start key press 	25
+47.3530 	DATA 	Keypress: o
+49.3469 	DATA 	Keypress: o
+51.3482 	DATA 	Keypress: o
+53.3472 	DATA 	Keypress: o
+54.0442 	Level image=waterlogo.jpg 	25
+55.0113 	Level injecting via pump at address 0 	25
+60.9864 	DATA 	Keypress: o
+60.9877 	DATA 	Keypress: o
+60.9888 	DATA 	Keypress: o
+61.9834 	DATA 	Keypress: o
+63.9949 	DATA 	Keypress: o
+70.9807 	Level finished 	25
+70.9820 	DATA 	Keypress: o
+70.9832 	DATA 	Keypress: o
+70.9843 	DATA 	Keypress: o
+70.9892 	Level image=tasty.jpg 	25
+71.9835 	DATA 	Keypress: o
+71.9880 	Level injecting via pump at address 0 	25
+77.9863 	DATA 	Keypress: o
+77.9876 	DATA 	Keypress: o
+77.9889 	DATA 	Keypress: o
+80.9858 	DATA 	Keypress: o
+84.9807 	Level finished 	25
+84.9819 	DATA 	Keypress: o
+84.9833 	DATA 	Keypress: o
+84.9883 	Level image=tasty.jpg 	25
+85.9832 	DATA 	Keypress: o
+85.9956 	Level injecting via pump at address 1 	25
+91.9855 	DATA 	Keypress: o
+91.9865 	DATA 	Keypress: o
+91.9874 	DATA 	Keypress: o
+94.9859 	DATA 	Keypress: o
+95.9807 	Level finished 	25
+95.9820 	DATA 	Keypress: o
+95.9862 	Level image=tasty.jpg 	25
+97.0052 	Level injecting via pump at address 0 	25
+102.9868 	DATA 	Keypress: o
+102.9882 	DATA 	Keypress: o
+102.9896 	DATA 	Keypress: o
+103.9835 	DATA 	Keypress: o
+105.9863 	DATA 	Keypress: o
+113.9807 	Level finished 	25
+113.9820 	DATA 	Keypress: o
+113.9832 	DATA 	Keypress: o
+113.9844 	DATA 	Keypress: o
+113.9856 	DATA 	Keypress: o
+113.9913 	Level image=waterlogo.jpg 	25
+115.0109 	Level injecting via pump at address 0 	25
+120.9863 	DATA 	Keypress: o
+120.9877 	DATA 	Keypress: o
+120.9888 	DATA 	Keypress: o
+121.9840 	DATA 	Keypress: o
+123.9857 	DATA 	Keypress: o
+131.9807 	Level finished 	25
+131.9820 	DATA 	Keypress: o
+131.9830 	DATA 	Keypress: o
+131.9840 	DATA 	Keypress: o
+131.9851 	DATA 	Keypress: o
+131.9908 	Level image=waterlogo.jpg 	25
+133.0161 	Level injecting via pump at address 0 	25
+138.9864 	DATA 	Keypress: o
+138.9877 	DATA 	Keypress: o
+138.9890 	DATA 	Keypress: o
+139.9839 	DATA 	Keypress: o
+141.9868 	DATA 	Keypress: o
+147.9807 	Level finished 	25
+147.9823 	DATA 	Keypress: o
+147.9839 	DATA 	Keypress: o
+147.9852 	DATA 	Keypress: o
+147.9895 	Level image=tasty.jpg 	25
+148.9982 	Level injecting via pump at address 1 	25
+154.9862 	DATA 	Keypress: o
+154.9874 	DATA 	Keypress: o
+154.9885 	DATA 	Keypress: o
+155.9837 	DATA 	Keypress: o
+157.9879 	DATA 	Keypress: o
+159.9807 	Level finished 	25
+159.9822 	DATA 	Keypress: o
+159.9870 	Level image=tasty.jpg 	25
+161.0011 	Level injecting via pump at address 0 	25
+166.9863 	DATA 	Keypress: o
+166.9878 	DATA 	Keypress: o
+166.9888 	DATA 	Keypress: o
+167.9844 	DATA 	Keypress: o
+169.9865 	DATA 	Keypress: o
+175.9807 	Level finished 	25
+175.9825 	DATA 	Keypress: o
+175.9841 	DATA 	Keypress: o
+175.9854 	DATA 	Keypress: o
+175.9921 	Level image=waterlogo.jpg 	25
+176.9851 	Level injecting via pump at address 0 	25
+182.9873 	DATA 	Keypress: o
+182.9888 	DATA 	Keypress: o
+182.9899 	DATA 	Keypress: o
+183.9836 	DATA 	Keypress: o
+185.9862 	DATA 	Keypress: o
+187.9807 	Level finished 	25
+187.9821 	DATA 	Keypress: o
+187.9874 	Level image=waterlogo.jpg 	25
+188.9879 	Level injecting via pump at address 0 	25
+194.9859 	DATA 	Keypress: o
+194.9874 	DATA 	Keypress: o
+194.9887 	DATA 	Keypress: o
+195.9833 	DATA 	Keypress: o
+197.9854 	DATA 	Keypress: o
+206.9807 	Level finished 	25
+206.9823 	DATA 	Keypress: o
+206.9836 	DATA 	Keypress: o
+206.9847 	DATA 	Keypress: o
+206.9857 	DATA 	Keypress: o
+206.9906 	Level image=tasty.jpg 	25
+207.9831 	DATA 	Keypress: o
+208.0038 	Level injecting via pump at address 1 	25
+213.9858 	DATA 	Keypress: o
+213.9872 	DATA 	Keypress: o
+213.9883 	DATA 	Keypress: o
+216.9863 	DATA 	Keypress: o
+223.9807 	Level finished 	25
+223.9821 	DATA 	Keypress: o
+223.9837 	DATA 	Keypress: o
+223.9852 	DATA 	Keypress: o
+223.9868 	DATA 	Keypress: o
+223.9912 	Level image=tasty.jpg 	25
+224.9979 	Level injecting via pump at address 0 	25
+230.9866 	DATA 	Keypress: o
+230.9880 	DATA 	Keypress: o
+230.9892 	DATA 	Keypress: o
+231.9836 	DATA 	Keypress: o
+233.9863 	DATA 	Keypress: o
+240.9807 	Level finished 	25
+240.9821 	DATA 	Keypress: o
+240.9833 	DATA 	Keypress: o
+240.9843 	DATA 	Keypress: o
+240.9891 	Level image=waterlogo.jpg 	25
+241.9835 	DATA 	Keypress: o
+242.0059 	Level injecting via pump at address 0 	25
+247.9864 	DATA 	Keypress: o
+247.9877 	DATA 	Keypress: o
+247.9890 	DATA 	Keypress: o
+250.9859 	DATA 	Keypress: o
+255.9807 	Level finished 	25
+255.9821 	DATA 	Keypress: o
+255.9834 	DATA 	Keypress: o
+255.9848 	DATA 	Keypress: o
+255.9899 	Level image=tasty.jpg 	25
+256.9949 	Level injecting via pump at address 0 	25
+262.9857 	DATA 	Keypress: o
+262.9872 	DATA 	Keypress: o
+262.9884 	DATA 	Keypress: o
+263.9835 	DATA 	Keypress: o
+265.9866 	DATA 	Keypress: o
+266.9807 	Level finished 	25
+266.9850 	Level image=tasty.jpg 	25
+267.9831 	DATA 	Keypress: o
+268.0047 	Level injecting via pump at address 1 	25
+273.9865 	DATA 	Keypress: o
+273.9880 	DATA 	Keypress: o
+273.9896 	DATA 	Keypress: o
+276.9862 	DATA 	Keypress: o
+279.9807 	Level finished 	25
+279.9823 	DATA 	Keypress: o
+279.9836 	DATA 	Keypress: o
+279.9876 	Level image=tasty.jpg 	25
+280.9852 	Level injecting via pump at address 0 	25
+286.9855 	DATA 	Keypress: o
+286.9868 	DATA 	Keypress: o
+286.9881 	DATA 	Keypress: o
+287.9837 	DATA 	Keypress: o
+289.9865 	DATA 	Keypress: o
+291.9807 	Level finished 	25
+291.9820 	DATA 	Keypress: o
+291.9860 	Level image=tasty.jpg 	25
+293.0062 	Level injecting via pump at address 1 	25
+298.9866 	DATA 	Keypress: o
+298.9879 	DATA 	Keypress: o
+298.9891 	DATA 	Keypress: o
+299.9840 	DATA 	Keypress: o
+301.9865 	DATA 	Keypress: o
+303.9807 	Level finished 	25
+303.9821 	DATA 	Keypress: o
+303.9869 	Level image=tasty.jpg 	25
+305.0092 	Level injecting via pump at address 0 	25
+310.9862 	DATA 	Keypress: o
+310.9875 	DATA 	Keypress: o
+310.9887 	DATA 	Keypress: o
+311.9832 	DATA 	Keypress: o
+313.9862 	DATA 	Keypress: o
+314.9807 	Level finished 	25
+314.9859 	Level image=waterlogo.jpg 	25
+315.9836 	DATA 	Keypress: o
+315.9947 	Level injecting via pump at address 0 	25
+321.9876 	DATA 	Keypress: o
+321.9889 	DATA 	Keypress: o
+321.9905 	DATA 	Keypress: o
+324.9857 	DATA 	Keypress: o
+330.9807 	Level finished 	25
+330.9821 	DATA 	Keypress: o
+330.9835 	DATA 	Keypress: o
+330.9847 	DATA 	Keypress: o
+330.9897 	Level image=tasty.jpg 	25
+331.9836 	DATA 	Keypress: o
+332.0011 	Level injecting via pump at address 1 	25
+337.9859 	DATA 	Keypress: o
+337.9872 	DATA 	Keypress: o
+337.9885 	DATA 	Keypress: o
+340.9860 	DATA 	Keypress: o
+343.9807 	Level finished 	25
+343.9822 	DATA 	Keypress: o
+343.9835 	DATA 	Keypress: o
+343.9883 	Level image=tasty.jpg 	25
+344.9968 	Level injecting via pump at address 0 	25
+350.9864 	DATA 	Keypress: o
+350.9875 	DATA 	Keypress: o
+350.9885 	DATA 	Keypress: o
+351.9834 	DATA 	Keypress: o
+353.9865 	DATA 	Keypress: o
+355.9807 	Level finished 	25
+355.9820 	DATA 	Keypress: o
+355.9868 	Level image=tasty.jpg 	25
+356.9852 	Level injecting via pump at address 1 	25
+362.9862 	DATA 	Keypress: o
+362.9876 	DATA 	Keypress: o
+362.9887 	DATA 	Keypress: o
+363.9838 	DATA 	Keypress: o
+365.9866 	DATA 	Keypress: o
+369.9807 	Level finished 	25
+369.9823 	DATA 	Keypress: o
+369.9841 	DATA 	Keypress: o
+369.9896 	Level image=tasty.jpg 	25
+370.9949 	Level injecting via pump at address 0 	25
+376.9865 	DATA 	Keypress: o
+376.9877 	DATA 	Keypress: o
+376.9890 	DATA 	Keypress: o
+377.9836 	DATA 	Keypress: o
+379.9863 	DATA 	Keypress: o
+386.9807 	Level finished 	25
+386.9820 	DATA 	Keypress: o
+386.9833 	DATA 	Keypress: o
+386.9845 	DATA 	Keypress: o
+386.9887 	Level image=tasty.jpg 	25
+387.9833 	DATA 	Keypress: o
+388.0045 	Level injecting via pump at address 0 	25
+393.9862 	DATA 	Keypress: o
+393.9876 	DATA 	Keypress: o
+393.9890 	DATA 	Keypress: o
+396.9864 	DATA 	Keypress: o
+400.9807 	Level finished 	25

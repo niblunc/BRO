@@ -1,0 +1,249 @@
+84.3420 	DATA 	Keypress: o
+84.3433 	Level start key press 	25
+86.3512 	DATA 	Keypress: o
+88.3509 	DATA 	Keypress: o
+90.3476 	DATA 	Keypress: o
+92.3319 	Level onset of trial =0.000000 	25
+92.6492 	DATA 	Keypress: o
+92.6614 	Level image=water.jpg 	25
+93.3445 	Level injecting via pump at address 0 	25
+93.3446 	Level post injecting via pump at address 0 	25
+93.3447 	Level from pump 5 	25
+99.3369 	DATA 	Keypress: o
+99.3379 	DATA 	Keypress: o
+99.3390 	DATA 	Keypress: o
+99.3461 	Level start wait 	25
+101.3366 	DATA 	Keypress: o
+101.3460 	Level NO RINSE 	25
+114.3315 	Level finished 	25
+114.3328 	DATA 	Keypress: o
+114.3338 	DATA 	Keypress: o
+114.3348 	DATA 	Keypress: o
+114.3359 	DATA 	Keypress: o
+114.3369 	DATA 	Keypress: o
+114.3379 	DATA 	Keypress: o
+114.3388 	DATA 	Keypress: o
+114.3396 	Level onset of trial =22.000000 	25
+114.5470 	Level image=water.jpg 	25
+115.3477 	Level injecting via pump at address 0 	25
+115.3480 	Level post injecting via pump at address 0 	25
+115.3480 	Level from pump 5 	25
+121.3369 	DATA 	Keypress: o
+121.3381 	DATA 	Keypress: o
+121.3393 	DATA 	Keypress: o
+121.3480 	Level start wait 	25
+123.3361 	DATA 	Keypress: o
+123.3392 	Level NO RINSE 	25
+130.3315 	Level finished 	25
+130.3329 	DATA 	Keypress: o
+130.3339 	DATA 	Keypress: o
+130.3348 	DATA 	Keypress: o
+130.3355 	Level onset of trial =38.000000 	25
+130.5215 	DATA 	Keypress: o
+130.5328 	Level image=UCO.jpg 	25
+131.3475 	Level injecting via pump at address 2 	25
+131.3478 	Level post injecting via pump at address 2 	25
+131.3478 	Level from pump 5 	25
+137.3365 	DATA 	Keypress: o
+137.3377 	DATA 	Keypress: o
+137.3388 	DATA 	Keypress: o
+137.3494 	Level start wait 	25
+139.3376 	DATA 	Keypress: o
+139.3502 	Level RINSE 	25
+142.3370 	DATA 	Keypress: o
+142.3380 	DATA 	Keypress: o
+142.3503 	Level Start Jitter 	25
+148.3315 	Level finished 	25
+148.3329 	DATA 	Keypress: o
+148.3340 	DATA 	Keypress: o
+148.3345 	Level onset of trial =56.000000 	25
+148.5212 	DATA 	Keypress: o
+148.5244 	Level image=CO.jpg 	25
+149.3372 	Level injecting via pump at address 1 	25
+149.3374 	Level post injecting via pump at address 1 	25
+149.3375 	Level from pump 5 	25
+155.3361 	DATA 	Keypress: o
+155.3372 	DATA 	Keypress: o
+155.3381 	DATA 	Keypress: o
+155.3519 	Level start wait 	25
+157.3359 	DATA 	Keypress: o
+157.3448 	Level RINSE 	25
+160.3378 	DATA 	Keypress: o
+160.3390 	DATA 	Keypress: o
+160.3456 	Level Start Jitter 	25
+167.3315 	Level finished 	25
+167.3328 	DATA 	Keypress: o
+167.3338 	DATA 	Keypress: o
+167.3347 	DATA 	Keypress: o
+167.3353 	Level onset of trial =75.000000 	25
+167.5204 	Level image=water.jpg 	25
+168.3364 	Level injecting via pump at address 0 	25
+168.3367 	Level post injecting via pump at address 0 	25
+168.3367 	Level from pump 5 	25
+174.3376 	DATA 	Keypress: o
+174.3390 	DATA 	Keypress: o
+174.3400 	DATA 	Keypress: o
+174.3409 	DATA 	Keypress: o
+174.3536 	Level start wait 	25
+176.3368 	DATA 	Keypress: o
+176.3456 	Level NO RINSE 	25
+188.3315 	Level finished 	25
+188.3330 	DATA 	Keypress: o
+188.3342 	DATA 	Keypress: o
+188.3355 	DATA 	Keypress: o
+188.3372 	DATA 	Keypress: o
+188.3385 	DATA 	Keypress: o
+188.3396 	DATA 	Keypress: o
+188.3406 	Level onset of trial =96.000000 	25
+188.5325 	Level image=water.jpg 	25
+189.3393 	Level injecting via pump at address 0 	25
+189.3395 	Level post injecting via pump at address 0 	25
+189.3396 	Level from pump 5 	25
+195.3369 	DATA 	Keypress: o
+195.3381 	DATA 	Keypress: o
+195.3393 	DATA 	Keypress: o
+195.3466 	Level start wait 	25
+197.3361 	DATA 	Keypress: o
+197.3406 	Level NO RINSE 	25
+205.3315 	Level finished 	25
+205.3329 	DATA 	Keypress: o
+205.3339 	DATA 	Keypress: o
+205.3348 	DATA 	Keypress: o
+205.3356 	DATA 	Keypress: o
+205.3363 	Level onset of trial =113.000000 	25
+205.5252 	Level image=CO.jpg 	25
+206.3388 	Level injecting via pump at address 1 	25
+206.3390 	Level post injecting via pump at address 1 	25
+206.3391 	Level from pump 5 	25
+212.3367 	DATA 	Keypress: o
+212.3377 	DATA 	Keypress: o
+212.3387 	DATA 	Keypress: o
+212.3398 	DATA 	Keypress: o
+212.3573 	Level start wait 	25
+214.3364 	DATA 	Keypress: o
+214.3427 	Level RINSE 	25
+217.3430 	Level Start Jitter 	25
+225.3315 	Level finished 	25
+225.3320 	Level onset of trial =133.000000 	25
+225.5223 	Level image=UCO.jpg 	25
+226.3441 	Level injecting via pump at address 2 	25
+226.3444 	Level post injecting via pump at address 2 	25
+226.3444 	Level from pump 5 	25
+232.3447 	Level start wait 	25
+234.3425 	Level RINSE 	25
+237.3436 	Level Start Jitter 	25
+246.3315 	Level finished 	25
+246.3328 	DATA 	Keypress: escape
+246.3337 	DATA 	Keypress: escape
+246.3344 	DATA 	Keypress: escape
+246.3351 	DATA 	Keypress: escape
+246.3363 	DATA 	Keypress: o
+246.3371 	Level onset of trial =154.000000 	25
+246.5294 	Level image=CO.jpg 	25
+247.3422 	Level injecting via pump at address 1 	25
+247.3425 	Level post injecting via pump at address 1 	25
+247.3425 	Level from pump 5 	25
+253.3372 	DATA 	Keypress: q
+253.3384 	DATA 	Keypress: q
+253.3394 	DATA 	Keypress: q
+253.3404 	DATA 	Keypress: q
+253.3414 	DATA 	Keypress: q
+253.3423 	DATA 	Keypress: q
+253.3433 	DATA 	Keypress: q
+253.3442 	DATA 	Keypress: q
+253.3455 	DATA 	Keypress: q
+253.3465 	DATA 	Keypress: q
+253.3479 	DATA 	Keypress: q
+253.3495 	DATA 	Keypress: q
+253.3506 	DATA 	Keypress: q
+253.3515 	DATA 	Keypress: q
+253.3525 	DATA 	Keypress: q
+253.3534 	DATA 	Keypress: q
+253.3543 	DATA 	Keypress: q
+253.3553 	DATA 	Keypress: q
+253.3562 	DATA 	Keypress: q
+253.3571 	DATA 	Keypress: q
+253.3580 	DATA 	Keypress: q
+253.3589 	DATA 	Keypress: q
+253.3598 	DATA 	Keypress: q
+253.3608 	DATA 	Keypress: q
+253.3617 	DATA 	Keypress: q
+253.3627 	DATA 	Keypress: q
+253.3636 	DATA 	Keypress: q
+253.3646 	DATA 	Keypress: q
+253.3655 	DATA 	Keypress: q
+253.3664 	DATA 	Keypress: q
+253.3674 	DATA 	Keypress: q
+253.3685 	DATA 	Keypress: q
+253.3763 	Level start wait 	25
+255.3372 	DATA 	Keypress: q
+255.3385 	DATA 	Keypress: q
+255.3397 	DATA 	Keypress: q
+255.3409 	DATA 	Keypress: q
+255.3421 	DATA 	Keypress: q
+255.3431 	DATA 	Keypress: q
+255.3440 	DATA 	Keypress: q
+255.3449 	DATA 	Keypress: q
+255.3459 	DATA 	Keypress: q
+255.3468 	DATA 	Keypress: q
+255.3504 	Level RINSE 	25
+258.3366 	DATA 	Keypress: q
+258.3377 	DATA 	Keypress: q
+258.3386 	DATA 	Keypress: q
+258.3396 	DATA 	Keypress: q
+258.3405 	DATA 	Keypress: q
+258.3414 	DATA 	Keypress: q
+258.3423 	DATA 	Keypress: q
+258.3432 	DATA 	Keypress: q
+258.3444 	DATA 	Keypress: q
+258.3455 	DATA 	Keypress: q
+258.3467 	DATA 	Keypress: q
+258.3479 	DATA 	Keypress: q
+258.3490 	DATA 	Keypress: q
+258.4310 	Level Start Jitter 	25
+268.3315 	Level finished 	25
+268.3549 	DATA 	Keypress: q
+268.3561 	DATA 	Keypress: q
+268.3573 	DATA 	Keypress: q
+268.3585 	DATA 	Keypress: q
+268.3596 	DATA 	Keypress: q
+268.3606 	DATA 	Keypress: q
+268.3615 	DATA 	Keypress: q
+268.3625 	DATA 	Keypress: q
+268.3635 	DATA 	Keypress: q
+268.3646 	DATA 	Keypress: q
+268.3656 	DATA 	Keypress: q
+268.3666 	DATA 	Keypress: q
+268.3676 	DATA 	Keypress: q
+268.3686 	DATA 	Keypress: q
+268.3698 	DATA 	Keypress: q
+268.3709 	DATA 	Keypress: q
+268.3719 	DATA 	Keypress: q
+268.3727 	DATA 	Keypress: q
+268.3737 	DATA 	Keypress: q
+268.3746 	DATA 	Keypress: q
+268.3755 	DATA 	Keypress: q
+268.3765 	DATA 	Keypress: q
+268.3774 	DATA 	Keypress: q
+268.3783 	DATA 	Keypress: q
+268.3793 	DATA 	Keypress: q
+268.3802 	DATA 	Keypress: q
+268.3812 	DATA 	Keypress: q
+268.3821 	DATA 	Keypress: q
+268.3831 	DATA 	Keypress: q
+268.3840 	DATA 	Keypress: q
+268.3850 	DATA 	Keypress: q
+268.3860 	DATA 	Keypress: q
+268.3870 	DATA 	Keypress: q
+268.3881 	DATA 	Keypress: q
+268.3893 	DATA 	Keypress: q
+268.3903 	DATA 	Keypress: q
+268.3913 	DATA 	Keypress: q
+268.3924 	DATA 	Keypress: q
+268.3933 	DATA 	Keypress: q
+268.3943 	DATA 	Keypress: q
+268.3953 	DATA 	Keypress: q
+268.3962 	DATA 	Keypress: q
+268.3974 	DATA 	Keypress: q
+268.3984 	DATA 	Keypress: q
+268.3993 	DATA 	Keypress: q

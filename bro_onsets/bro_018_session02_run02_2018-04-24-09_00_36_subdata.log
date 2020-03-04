@@ -1,0 +1,462 @@
+33.9633 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.0035 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.0115 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.0192 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.0273 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.0353 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.0433 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.0515 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.0594 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.0673 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.0753 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.0835 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.0916 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.0994 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.1075 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.1154 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.1235 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.1315 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.1636 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.1877 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.2117 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.2358 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.2519 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.2598 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.2679 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.2759 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.2840 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.2923 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.2999 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.3080 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.3159 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.3239 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.3322 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.3480 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.3561 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.3967 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+34.4442 	DATA 	Mouse: wheel shift=(0,0), pos=(797,6)
+65.8977 	DATA 	Keypress: o
+65.8985 	Level start key press 	25
+67.8969 	DATA 	Keypress: o
+69.8969 	DATA 	Keypress: o
+71.8970 	DATA 	Keypress: o
+73.8971 	DATA 	Keypress: o
+74.4116 	Level image=tasty.jpg 	25
+75.3454 	Level injecting via pump at address 1 	25
+81.3334 	DATA 	Keypress: o
+81.3346 	DATA 	Keypress: o
+81.3358 	DATA 	Keypress: o
+81.3454 	Level WAIT 	25
+82.3308 	DATA 	Keypress: o
+82.3455 	Level RINSE 	25
+84.3332 	DATA 	Keypress: o
+84.3455 	Level jitter 	25
+93.3282 	Level finished 	25
+93.3296 	DATA 	Keypress: o
+93.3309 	DATA 	Keypress: o
+93.3319 	DATA 	Keypress: o
+93.3330 	DATA 	Keypress: o
+93.3466 	Level image=waterlogo.jpg 	25
+94.3305 	DATA 	Keypress: o
+94.3463 	Level injecting via pump at address 0 	25
+100.3326 	DATA 	Keypress: o
+100.3336 	DATA 	Keypress: o
+100.3346 	DATA 	Keypress: o
+100.3466 	Level WAIT 	25
+101.3468 	Level RINSE 	25
+103.3330 	DATA 	Keypress: o
+103.3472 	Level jitter 	25
+107.3282 	Level finished 	25
+107.3295 	DATA 	Keypress: o
+107.3305 	DATA 	Keypress: o
+107.3638 	Level image=tasty.jpg 	25
+108.3306 	DATA 	Keypress: o
+108.3473 	Level injecting via pump at address 1 	25
+114.3336 	DATA 	Keypress: o
+114.3346 	DATA 	Keypress: o
+114.3356 	DATA 	Keypress: o
+114.3480 	Level WAIT 	25
+115.3477 	Level RINSE 	25
+117.3334 	DATA 	Keypress: o
+117.3645 	Level jitter 	25
+121.3282 	Level finished 	25
+121.3295 	DATA 	Keypress: o
+121.3307 	DATA 	Keypress: o
+121.3481 	Level image=waterlogo.jpg 	25
+122.3309 	DATA 	Keypress: o
+122.3482 	Level injecting via pump at address 0 	25
+128.3328 	DATA 	Keypress: o
+128.3340 	DATA 	Keypress: o
+128.3351 	DATA 	Keypress: o
+128.3489 	Level WAIT 	25
+129.3487 	Level RINSE 	25
+131.3329 	DATA 	Keypress: o
+131.3488 	Level jitter 	25
+135.3282 	Level finished 	25
+135.3296 	DATA 	Keypress: o
+135.3311 	DATA 	Keypress: o
+135.3658 	Level image=waterlogo.jpg 	25
+136.3309 	DATA 	Keypress: o
+136.3492 	Level injecting via pump at address 0 	25
+142.3331 	DATA 	Keypress: o
+142.3344 	DATA 	Keypress: o
+142.3353 	DATA 	Keypress: o
+142.3666 	Level WAIT 	25
+143.3496 	Level RINSE 	25
+145.3335 	DATA 	Keypress: o
+145.3665 	Level jitter 	25
+149.3282 	Level finished 	25
+149.3295 	DATA 	Keypress: o
+149.3305 	DATA 	Keypress: o
+149.3501 	Level image=tasty.jpg 	25
+150.3309 	DATA 	Keypress: o
+150.3502 	Level injecting via pump at address 1 	25
+156.3327 	DATA 	Keypress: o
+156.3337 	DATA 	Keypress: o
+156.3346 	DATA 	Keypress: o
+156.3509 	Level WAIT 	25
+157.3506 	Level RINSE 	25
+159.3331 	DATA 	Keypress: o
+159.3507 	Level jitter 	25
+165.3282 	Level finished 	25
+165.3297 	DATA 	Keypress: o
+165.3310 	DATA 	Keypress: o
+165.3321 	DATA 	Keypress: o
+165.3511 	Level image=waterlogo.jpg 	25
+166.3309 	DATA 	Keypress: o
+166.3517 	Level injecting via pump at address 0 	25
+172.3326 	DATA 	Keypress: o
+172.3336 	DATA 	Keypress: o
+172.3346 	DATA 	Keypress: o
+172.3516 	Level WAIT 	25
+173.3517 	Level RINSE 	25
+175.3332 	DATA 	Keypress: o
+175.3518 	Level jitter 	25
+178.3282 	Level finished 	25
+178.3296 	DATA 	Keypress: o
+178.3309 	DATA 	Keypress: o
+178.3524 	Level image=tasty.jpg 	25
+179.3521 	Level injecting via pump at address 1 	25
+185.3336 	DATA 	Keypress: o
+185.3346 	DATA 	Keypress: o
+185.3355 	DATA 	Keypress: o
+185.3525 	Level WAIT 	25
+186.3306 	DATA 	Keypress: o
+186.3359 	Level RINSE 	25
+188.3336 	DATA 	Keypress: o
+188.3530 	Level jitter 	25
+191.3282 	Level finished 	25
+191.3296 	DATA 	Keypress: o
+191.3529 	Level image=waterlogo.jpg 	25
+192.3311 	DATA 	Keypress: o
+192.3365 	Level injecting via pump at address 0 	25
+198.3336 	DATA 	Keypress: o
+198.3349 	DATA 	Keypress: o
+198.3360 	DATA 	Keypress: o
+198.3537 	Level WAIT 	25
+199.3368 	Level RINSE 	25
+201.3329 	DATA 	Keypress: o
+201.3535 	Level jitter 	25
+205.3282 	Level finished 	25
+205.3295 	DATA 	Keypress: o
+205.3306 	DATA 	Keypress: o
+205.3539 	Level image=waterlogo.jpg 	25
+206.3310 	DATA 	Keypress: o
+206.3540 	Level injecting via pump at address 0 	25
+212.3328 	DATA 	Keypress: o
+212.3338 	DATA 	Keypress: o
+212.3348 	DATA 	Keypress: o
+212.3549 	Level WAIT 	25
+213.3545 	Level RINSE 	25
+215.3331 	DATA 	Keypress: o
+215.3546 	Level jitter 	25
+220.3282 	Level finished 	25
+220.3295 	DATA 	Keypress: o
+220.3305 	DATA 	Keypress: o
+220.3315 	DATA 	Keypress: o
+220.3549 	Level image=tasty.jpg 	25
+221.3385 	Level injecting via pump at address 1 	25
+227.3327 	DATA 	Keypress: o
+227.3337 	DATA 	Keypress: o
+227.3348 	DATA 	Keypress: o
+227.3559 	Level WAIT 	25
+228.3309 	DATA 	Keypress: o
+228.3556 	Level RINSE 	25
+230.3341 	DATA 	Keypress: o
+230.3389 	Level jitter 	25
+233.3282 	Level finished 	25
+233.3294 	DATA 	Keypress: o
+233.3392 	Level image=waterlogo.jpg 	25
+234.3306 	DATA 	Keypress: o
+234.3559 	Level injecting via pump at address 0 	25
+240.3326 	DATA 	Keypress: o
+240.3337 	DATA 	Keypress: o
+240.3347 	DATA 	Keypress: o
+240.3568 	Level WAIT 	25
+241.3565 	Level RINSE 	25
+243.3330 	DATA 	Keypress: o
+243.3565 	Level jitter 	25
+251.3282 	Level finished 	25
+251.3297 	DATA 	Keypress: o
+251.3309 	DATA 	Keypress: o
+251.3319 	DATA 	Keypress: o
+251.3329 	DATA 	Keypress: o
+251.3575 	Level image=tasty.jpg 	25
+252.3310 	DATA 	Keypress: o
+252.3406 	Level injecting via pump at address 1 	25
+258.3336 	DATA 	Keypress: o
+258.3348 	DATA 	Keypress: o
+258.3359 	DATA 	Keypress: o
+258.3409 	Level WAIT 	25
+259.3410 	Level RINSE 	25
+261.3331 	DATA 	Keypress: o
+261.3415 	Level jitter 	25
+263.3282 	Level finished 	25
+263.3293 	DATA 	Keypress: o
+263.3579 	Level image=tasty.jpg 	25
+264.3305 	DATA 	Keypress: o
+264.3414 	Level injecting via pump at address 1 	25
+270.3332 	DATA 	Keypress: o
+270.3343 	DATA 	Keypress: o
+270.3352 	DATA 	Keypress: o
+270.3417 	Level WAIT 	25
+271.3422 	Level RINSE 	25
+273.3325 	DATA 	Keypress: o
+273.3586 	Level jitter 	25
+275.3282 	Level finished 	25
+275.3295 	DATA 	Keypress: o
+275.3587 	Level image=waterlogo.jpg 	25
+276.3305 	DATA 	Keypress: o
+276.3588 	Level injecting via pump at address 0 	25
+282.3326 	DATA 	Keypress: o
+282.3336 	DATA 	Keypress: o
+282.3345 	DATA 	Keypress: o
+282.3596 	Level WAIT 	25
+283.3426 	Level RINSE 	25
+285.3338 	DATA 	Keypress: o
+285.3595 	Level jitter 	25
+288.3282 	Level finished 	25
+288.3295 	DATA 	Keypress: o
+288.3305 	DATA 	Keypress: o
+288.3596 	Level image=tasty.jpg 	25
+289.3431 	Level injecting via pump at address 1 	25
+295.3332 	DATA 	Keypress: o
+295.3343 	DATA 	Keypress: o
+295.3352 	DATA 	Keypress: o
+295.3439 	Level WAIT 	25
+296.3306 	DATA 	Keypress: o
+296.3435 	Level RINSE 	25
+298.3331 	DATA 	Keypress: o
+298.3604 	Level jitter 	25
+300.3282 	Level finished 	25
+300.3296 	DATA 	Keypress: o
+300.3606 	Level image=waterlogo.jpg 	25
+301.3606 	Level injecting via pump at address 0 	25
+307.3336 	DATA 	Keypress: o
+307.3350 	DATA 	Keypress: o
+307.3362 	DATA 	Keypress: o
+307.3613 	Level WAIT 	25
+308.3310 	DATA 	Keypress: o
+308.3445 	Level RINSE 	25
+310.3326 	DATA 	Keypress: o
+310.3612 	Level jitter 	25
+311.3282 	Level finished 	25
+311.3445 	Level image=tasty.jpg 	25
+312.3311 	DATA 	Keypress: o
+312.3447 	Level injecting via pump at address 1 	25
+318.3335 	DATA 	Keypress: o
+318.3344 	DATA 	Keypress: o
+318.3353 	DATA 	Keypress: o
+318.3454 	Level WAIT 	25
+319.3451 	Level RINSE 	25
+321.3335 	DATA 	Keypress: o
+321.3452 	Level jitter 	25
+323.3282 	Level finished 	25
+323.3295 	DATA 	Keypress: o
+323.3621 	Level image=waterlogo.jpg 	25
+324.3310 	DATA 	Keypress: o
+324.3456 	Level injecting via pump at address 0 	25
+330.3331 	DATA 	Keypress: o
+330.3342 	DATA 	Keypress: o
+330.3354 	DATA 	Keypress: o
+330.3462 	Level WAIT 	25
+331.3459 	Level RINSE 	25
+333.3326 	DATA 	Keypress: o
+333.3460 	Level jitter 	25
+339.3282 	Level finished 	25
+339.3296 	DATA 	Keypress: o
+339.3307 	DATA 	Keypress: o
+339.3319 	DATA 	Keypress: o
+339.3466 	Level image=waterlogo.jpg 	25
+340.3310 	DATA 	Keypress: o
+340.3470 	Level injecting via pump at address 0 	25
+346.3330 	DATA 	Keypress: o
+346.3343 	DATA 	Keypress: o
+346.3353 	DATA 	Keypress: o
+346.3469 	Level WAIT 	25
+347.3470 	Level RINSE 	25
+349.3339 	DATA 	Keypress: o
+349.3471 	Level jitter 	25
+352.3282 	Level finished 	25
+352.3295 	DATA 	Keypress: o
+352.3307 	DATA 	Keypress: o
+352.3479 	Level image=tasty.jpg 	25
+353.3476 	Level injecting via pump at address 1 	25
+359.3333 	DATA 	Keypress: o
+359.3346 	DATA 	Keypress: o
+359.3356 	DATA 	Keypress: o
+359.3478 	Level WAIT 	25
+360.3311 	DATA 	Keypress: o
+360.3479 	Level RINSE 	25
+362.3331 	DATA 	Keypress: o
+362.3485 	Level jitter 	25
+370.3282 	Level finished 	25
+370.3296 	DATA 	Keypress: o
+370.3308 	DATA 	Keypress: o
+370.3321 	DATA 	Keypress: o
+370.3332 	DATA 	Keypress: o
+370.3486 	Level image=waterlogo.jpg 	25
+371.3487 	Level injecting via pump at address 0 	25
+377.3327 	DATA 	Keypress: o
+377.3337 	DATA 	Keypress: o
+377.3349 	DATA 	Keypress: o
+377.3495 	Level WAIT 	25
+378.3306 	DATA 	Keypress: o
+378.3492 	Level RINSE 	25
+380.3335 	DATA 	Keypress: o
+380.3493 	Level jitter 	25
+385.3282 	Level finished 	25
+385.3296 	DATA 	Keypress: o
+385.3308 	DATA 	Keypress: o
+385.3664 	Level image=tasty.jpg 	25
+386.3305 	DATA 	Keypress: o
+386.3497 	Level injecting via pump at address 1 	25
+392.3339 	DATA 	Keypress: o
+392.3352 	DATA 	Keypress: o
+392.3363 	DATA 	Keypress: o
+392.3505 	Level WAIT 	25
+393.3503 	Level RINSE 	25
+395.3331 	DATA 	Keypress: o
+395.3504 	Level jitter 	25
+399.3282 	Level finished 	25
+399.3294 	DATA 	Keypress: o
+399.3305 	DATA 	Keypress: o
+399.3506 	Level image=waterlogo.jpg 	25
+400.3310 	DATA 	Keypress: o
+400.3507 	Level injecting via pump at address 0 	25
+406.3333 	DATA 	Keypress: o
+406.3345 	DATA 	Keypress: o
+406.3357 	DATA 	Keypress: o
+406.3515 	Level WAIT 	25
+407.3512 	Level RINSE 	25
+409.3329 	DATA 	Keypress: o
+409.3513 	Level jitter 	25
+414.3282 	Level finished 	25
+414.3295 	DATA 	Keypress: o
+414.3308 	DATA 	Keypress: o
+414.3318 	DATA 	Keypress: o
+414.3517 	Level image=tasty.jpg 	25
+415.3518 	Level injecting via pump at address 1 	25
+421.3331 	DATA 	Keypress: o
+421.3341 	DATA 	Keypress: o
+421.3351 	DATA 	Keypress: o
+421.3526 	Level WAIT 	25
+422.3309 	DATA 	Keypress: o
+422.3522 	Level RINSE 	25
+424.3335 	DATA 	Keypress: o
+424.3524 	Level jitter 	25
+433.3282 	Level finished 	25
+433.3296 	DATA 	Keypress: o
+433.3308 	DATA 	Keypress: o
+433.3320 	DATA 	Keypress: o
+433.3331 	DATA 	Keypress: o
+433.3534 	Level image=waterlogo.jpg 	25
+434.3310 	DATA 	Keypress: o
+434.3531 	Level injecting via pump at address 0 	25
+440.3332 	DATA 	Keypress: o
+440.3343 	DATA 	Keypress: o
+440.3352 	DATA 	Keypress: o
+440.3534 	Level WAIT 	25
+441.3535 	Level RINSE 	25
+443.3331 	DATA 	Keypress: o
+443.3540 	Level jitter 	25
+452.3282 	Level finished 	25
+452.3295 	DATA 	Keypress: o
+452.3305 	DATA 	Keypress: o
+452.3314 	DATA 	Keypress: o
+452.3323 	DATA 	Keypress: o
+452.3332 	DATA 	Keypress: o
+452.3543 	Level image=tasty.jpg 	25
+453.3549 	Level injecting via pump at address 1 	25
+459.3332 	DATA 	Keypress: o
+459.3342 	DATA 	Keypress: o
+459.3354 	DATA 	Keypress: o
+459.3548 	Level WAIT 	25
+460.3306 	DATA 	Keypress: o
+460.3548 	Level RINSE 	25
+462.3326 	DATA 	Keypress: o
+462.3550 	Level jitter 	25
+466.3282 	Level finished 	25
+466.3294 	DATA 	Keypress: o
+466.3304 	DATA 	Keypress: o
+466.3557 	Level image=tasty.jpg 	25
+467.3387 	Level injecting via pump at address 1 	25
+473.3338 	DATA 	Keypress: o
+473.3350 	DATA 	Keypress: o
+473.3362 	DATA 	Keypress: o
+473.3390 	Level WAIT 	25
+474.3309 	DATA 	Keypress: o
+474.3391 	Level RINSE 	25
+476.3332 	DATA 	Keypress: o
+476.3398 	Level jitter 	25
+479.3282 	Level finished 	25
+479.3293 	DATA 	Keypress: o
+479.3562 	Level image=waterlogo.jpg 	25
+480.3311 	DATA 	Keypress: o
+480.3396 	Level injecting via pump at address 0 	25
+486.3335 	DATA 	Keypress: o
+486.3347 	DATA 	Keypress: o
+486.3357 	DATA 	Keypress: o
+486.3570 	Level WAIT 	25
+487.3400 	Level RINSE 	25
+489.3329 	DATA 	Keypress: o
+489.3401 	Level jitter 	25
+490.3282 	Level finished 	25
+490.3293 	DATA 	Keypress: o
+490.3569 	Level image=tasty.jpg 	25
+491.3570 	Level injecting via pump at address 1 	25
+497.3332 	DATA 	Keypress: o
+497.3343 	DATA 	Keypress: o
+497.3353 	DATA 	Keypress: o
+497.3578 	Level WAIT 	25
+498.3307 	DATA 	Keypress: o
+498.3408 	Level RINSE 	25
+500.3350 	DATA 	Keypress: o
+500.3576 	Level jitter 	25
+507.3282 	Level finished 	25
+507.3295 	DATA 	Keypress: o
+507.3306 	DATA 	Keypress: o
+507.3315 	DATA 	Keypress: o
+507.3585 	Level image=waterlogo.jpg 	25
+508.3309 	DATA 	Keypress: o
+508.3415 	Level injecting via pump at address 0 	25
+514.3326 	DATA 	Keypress: o
+514.3337 	DATA 	Keypress: o
+514.3349 	DATA 	Keypress: o
+514.3418 	Level WAIT 	25
+515.3419 	Level RINSE 	25
+517.3333 	DATA 	Keypress: o
+517.3425 	Level jitter 	25
+518.3282 	Level finished 	25
+518.3295 	DATA 	Keypress: o
+518.3588 	Level image=tasty.jpg 	25
+519.3590 	Level injecting via pump at address 1 	25
+525.3335 	DATA 	Keypress: o
+525.3345 	DATA 	Keypress: o
+525.3354 	DATA 	Keypress: o
+525.3593 	Level WAIT 	25
+526.3307 	DATA 	Keypress: o
+526.3428 	Level RINSE 	25
+528.3331 	DATA 	Keypress: o
+528.3599 	Level jitter 	25
+534.3282 	Level finished 	25

@@ -1,0 +1,435 @@
+47.6001 	DATA 	Keypress: o
+47.6011 	Level start key press 	25
+49.6073 	DATA 	Keypress: o
+51.6014 	DATA 	Keypress: o
+53.6030 	DATA 	Keypress: o
+55.6181 	DATA 	Keypress: o
+56.2644 	Level onset of trial =0.000000 	25
+56.5462 	Level image=water.jpg 	25
+57.2813 	Level injecting via pump at address 0 	25
+57.2815 	Level injecting via pump at address 0 	25
+57.2816 	Level post injecting via pump at address 0 	25
+63.2706 	DATA 	Keypress: o
+63.2722 	DATA 	Keypress: o
+63.2736 	DATA 	Keypress: o
+63.2826 	Level start wait 	25
+65.2704 	DATA 	Keypress: o
+65.2894 	Level NO RINSE 	25
+75.2640 	Level finished 	25
+75.2659 	DATA 	Keypress: o
+75.2675 	DATA 	Keypress: o
+75.2692 	DATA 	Keypress: o
+75.2705 	DATA 	Keypress: o
+75.2718 	DATA 	Keypress: o
+75.2727 	Level onset of trial =19.000000 	25
+75.5020 	Level image=SL.jpg 	25
+76.2676 	DATA 	Keypress: o
+76.2806 	Level injecting via pump at address 1 	25
+76.2808 	Level injecting via pump at address 1 	25
+76.2809 	Level post injecting via pump at address 1 	25
+82.2706 	DATA 	Keypress: o
+82.2723 	DATA 	Keypress: o
+82.2737 	DATA 	Keypress: o
+82.2830 	Level start wait 	25
+84.2719 	DATA 	Keypress: o
+84.2883 	Level RINSE 	25
+87.2709 	DATA 	Keypress: o
+87.2894 	Level Start Jitter 	25
+91.2640 	Level finished 	25
+91.2658 	DATA 	Keypress: o
+91.2675 	DATA 	Keypress: o
+91.2684 	Level onset of trial =35.000000 	25
+91.4840 	Level image=USL.jpg 	25
+92.2673 	DATA 	Keypress: o
+92.2806 	Level injecting via pump at address 2 	25
+92.2808 	Level injecting via pump at address 2 	25
+92.2809 	Level post injecting via pump at address 2 	25
+98.2709 	DATA 	Keypress: o
+98.2726 	DATA 	Keypress: o
+98.2741 	DATA 	Keypress: o
+98.2989 	Level start wait 	25
+100.2707 	DATA 	Keypress: o
+100.2827 	Level RINSE 	25
+103.2709 	DATA 	Keypress: o
+103.2881 	Level Start Jitter 	25
+108.2640 	Level finished 	25
+108.2658 	DATA 	Keypress: o
+108.2675 	DATA 	Keypress: o
+108.2690 	DATA 	Keypress: o
+108.2699 	Level onset of trial =52.000000 	25
+108.4782 	Level image=SL.jpg 	25
+109.2736 	Level injecting via pump at address 1 	25
+109.2738 	Level injecting via pump at address 1 	25
+109.2739 	Level post injecting via pump at address 1 	25
+115.2699 	DATA 	Keypress: o
+115.2715 	DATA 	Keypress: o
+115.2730 	DATA 	Keypress: o
+115.2831 	Level start wait 	25
+117.2704 	DATA 	Keypress: o
+117.2979 	Level RINSE 	25
+120.2703 	DATA 	Keypress: o
+120.2717 	DATA 	Keypress: o
+120.2833 	Level Start Jitter 	25
+130.2640 	Level finished 	25
+130.2657 	DATA 	Keypress: o
+130.2671 	DATA 	Keypress: o
+130.2683 	DATA 	Keypress: o
+130.2696 	DATA 	Keypress: o
+130.2708 	DATA 	Keypress: o
+130.2717 	Level onset of trial =74.000000 	25
+130.4791 	Level image=USL.jpg 	25
+131.2748 	Level injecting via pump at address 2 	25
+131.2749 	Level injecting via pump at address 2 	25
+131.2750 	Level post injecting via pump at address 2 	25
+137.2700 	DATA 	Keypress: o
+137.2712 	DATA 	Keypress: o
+137.2724 	DATA 	Keypress: o
+137.2924 	Level start wait 	25
+139.2697 	DATA 	Keypress: o
+139.2991 	Level RINSE 	25
+142.2711 	DATA 	Keypress: o
+142.2728 	DATA 	Keypress: o
+142.2830 	Level Start Jitter 	25
+152.2640 	Level finished 	25
+152.2657 	DATA 	Keypress: o
+152.2673 	DATA 	Keypress: o
+152.2687 	DATA 	Keypress: o
+152.2700 	DATA 	Keypress: o
+152.2712 	DATA 	Keypress: o
+152.2720 	Level onset of trial =96.000000 	25
+152.4803 	Level image=water.jpg 	25
+153.2747 	Level injecting via pump at address 0 	25
+153.2749 	Level injecting via pump at address 0 	25
+153.2751 	Level post injecting via pump at address 0 	25
+159.2694 	DATA 	Keypress: o
+159.2707 	DATA 	Keypress: o
+159.2723 	DATA 	Keypress: o
+159.2765 	Level start wait 	25
+161.2718 	DATA 	Keypress: o
+161.2834 	Level NO RINSE 	25
+171.2640 	Level finished 	25
+171.2657 	DATA 	Keypress: o
+171.2675 	DATA 	Keypress: o
+171.2691 	DATA 	Keypress: o
+171.2706 	DATA 	Keypress: o
+171.2720 	DATA 	Keypress: o
+171.2731 	Level onset of trial =115.000000 	25
+171.4880 	Level image=SL.jpg 	25
+172.2664 	DATA 	Keypress: o
+172.2700 	Level injecting via pump at address 1 	25
+172.2701 	Level injecting via pump at address 1 	25
+172.2703 	Level post injecting via pump at address 1 	25
+178.2691 	DATA 	Keypress: o
+178.2704 	DATA 	Keypress: o
+178.2714 	DATA 	Keypress: o
+178.2939 	Level start wait 	25
+180.2696 	DATA 	Keypress: o
+180.2827 	Level RINSE 	25
+183.2711 	DATA 	Keypress: o
+183.3002 	Level Start Jitter 	25
+188.2640 	Level finished 	25
+188.2657 	DATA 	Keypress: o
+188.2670 	DATA 	Keypress: o
+188.2683 	DATA 	Keypress: o
+188.2690 	Level onset of trial =132.000000 	25
+188.4720 	Level image=USL.jpg 	25
+189.2683 	Level injecting via pump at address 2 	25
+189.2685 	Level injecting via pump at address 2 	25
+189.2687 	Level post injecting via pump at address 2 	25
+195.2703 	DATA 	Keypress: o
+195.2715 	DATA 	Keypress: o
+195.2727 	DATA 	Keypress: o
+195.2871 	Level start wait 	25
+197.2694 	DATA 	Keypress: o
+197.2772 	Level RINSE 	25
+200.2696 	DATA 	Keypress: o
+200.2708 	DATA 	Keypress: o
+200.2774 	Level Start Jitter 	25
+206.2640 	Level finished 	25
+206.2655 	DATA 	Keypress: o
+206.2668 	DATA 	Keypress: o
+206.2679 	DATA 	Keypress: o
+206.2687 	Level onset of trial =150.000000 	25
+206.4780 	Level image=SL.jpg 	25
+207.2908 	Level injecting via pump at address 1 	25
+207.2910 	Level injecting via pump at address 1 	25
+207.2912 	Level post injecting via pump at address 1 	25
+213.2709 	DATA 	Keypress: o
+213.2730 	DATA 	Keypress: o
+213.2748 	DATA 	Keypress: o
+213.2901 	Level start wait 	25
+215.2699 	DATA 	Keypress: o
+215.2823 	Level RINSE 	25
+218.2695 	DATA 	Keypress: o
+218.2708 	DATA 	Keypress: o
+218.2833 	Level Start Jitter 	25
+222.2640 	Level finished 	25
+222.2657 	DATA 	Keypress: o
+222.2674 	DATA 	Keypress: o
+222.2684 	Level onset of trial =166.000000 	25
+222.4769 	Level image=USL.jpg 	25
+223.2902 	Level injecting via pump at address 2 	25
+223.2903 	Level injecting via pump at address 2 	25
+223.2904 	Level post injecting via pump at address 2 	25
+229.2697 	DATA 	Keypress: o
+229.2711 	DATA 	Keypress: o
+229.2722 	DATA 	Keypress: o
+229.2922 	Level start wait 	25
+231.2699 	DATA 	Keypress: o
+231.2803 	Level RINSE 	25
+234.2713 	DATA 	Keypress: o
+234.2732 	DATA 	Keypress: o
+234.2808 	Level Start Jitter 	25
+239.2640 	Level finished 	25
+239.2653 	DATA 	Keypress: o
+239.2664 	DATA 	Keypress: o
+239.2670 	Level onset of trial =183.000000 	25
+239.4873 	Level image=SL.jpg 	25
+240.2672 	DATA 	Keypress: o
+240.2837 	Level injecting via pump at address 1 	25
+240.2838 	Level injecting via pump at address 1 	25
+240.2840 	Level post injecting via pump at address 1 	25
+246.2703 	DATA 	Keypress: o
+246.2716 	DATA 	Keypress: o
+246.2728 	DATA 	Keypress: o
+246.2850 	Level start wait 	25
+248.2694 	DATA 	Keypress: o
+248.2912 	Level RINSE 	25
+251.2694 	DATA 	Keypress: o
+251.2757 	Level Start Jitter 	25
+262.2640 	Level finished 	25
+262.2655 	DATA 	Keypress: o
+262.2668 	DATA 	Keypress: o
+262.2680 	DATA 	Keypress: o
+262.2692 	DATA 	Keypress: o
+262.2704 	DATA 	Keypress: o
+262.2717 	DATA 	Keypress: o
+262.2726 	Level onset of trial =206.000000 	25
+262.4836 	Level image=water.jpg 	25
+263.2789 	Level injecting via pump at address 0 	25
+263.2790 	Level injecting via pump at address 0 	25
+263.2792 	Level post injecting via pump at address 0 	25
+269.2704 	DATA 	Keypress: o
+269.2717 	DATA 	Keypress: o
+269.2731 	DATA 	Keypress: o
+269.2804 	Level start wait 	25
+271.2697 	DATA 	Keypress: o
+271.2868 	Level NO RINSE 	25
+285.2640 	Level finished 	25
+285.2657 	DATA 	Keypress: o
+285.2669 	DATA 	Keypress: o
+285.2680 	DATA 	Keypress: o
+285.2692 	DATA 	Keypress: o
+285.2703 	DATA 	Keypress: o
+285.2714 	DATA 	Keypress: o
+285.2723 	DATA 	Keypress: o
+285.2731 	Level onset of trial =229.000000 	25
+285.4951 	Level image=water.jpg 	25
+286.2667 	DATA 	Keypress: o
+286.2742 	Level injecting via pump at address 0 	25
+286.2743 	Level injecting via pump at address 0 	25
+286.2745 	Level post injecting via pump at address 0 	25
+292.2713 	DATA 	Keypress: o
+292.2730 	DATA 	Keypress: o
+292.2746 	DATA 	Keypress: o
+292.2919 	Level start wait 	25
+294.2712 	DATA 	Keypress: o
+294.2784 	Level NO RINSE 	25
+301.2640 	Level finished 	25
+301.2653 	DATA 	Keypress: o
+301.2663 	DATA 	Keypress: o
+301.2673 	DATA 	Keypress: o
+301.2682 	Level onset of trial =245.000000 	25
+301.5106 	Level image=USL.jpg 	25
+302.2677 	DATA 	Keypress: o
+302.2903 	Level injecting via pump at address 2 	25
+302.2905 	Level injecting via pump at address 2 	25
+302.2907 	Level post injecting via pump at address 2 	25
+308.2693 	DATA 	Keypress: o
+308.2703 	DATA 	Keypress: o
+308.2715 	DATA 	Keypress: o
+308.2909 	Level start wait 	25
+310.2687 	DATA 	Keypress: o
+310.2971 	Level RINSE 	25
+313.2708 	DATA 	Keypress: o
+313.2804 	Level Start Jitter 	25
+319.2640 	Level finished 	25
+319.2660 	DATA 	Keypress: o
+319.2674 	DATA 	Keypress: o
+319.2688 	DATA 	Keypress: o
+319.2695 	Level onset of trial =263.000000 	25
+319.5156 	Level image=SL.jpg 	25
+320.2668 	DATA 	Keypress: o
+320.2780 	Level injecting via pump at address 1 	25
+320.2782 	Level injecting via pump at address 1 	25
+320.2784 	Level post injecting via pump at address 1 	25
+326.2693 	DATA 	Keypress: o
+326.2705 	DATA 	Keypress: o
+326.2715 	DATA 	Keypress: o
+326.2804 	Level start wait 	25
+328.2693 	DATA 	Keypress: o
+328.2814 	Level RINSE 	25
+331.2698 	DATA 	Keypress: o
+331.2810 	Level Start Jitter 	25
+336.2640 	Level finished 	25
+336.2657 	DATA 	Keypress: o
+336.2672 	DATA 	Keypress: o
+336.2688 	DATA 	Keypress: o
+336.2695 	Level onset of trial =280.000000 	25
+336.4766 	Level image=USL.jpg 	25
+337.2719 	Level injecting via pump at address 2 	25
+337.2720 	Level injecting via pump at address 2 	25
+337.2723 	Level post injecting via pump at address 2 	25
+343.2715 	DATA 	Keypress: o
+343.2731 	DATA 	Keypress: o
+343.2744 	DATA 	Keypress: o
+343.2826 	Level start wait 	25
+345.2715 	DATA 	Keypress: o
+345.2961 	Level RINSE 	25
+348.2701 	DATA 	Keypress: o
+348.2712 	DATA 	Keypress: o
+348.2805 	Level Start Jitter 	25
+355.2640 	Level finished 	25
+355.2662 	DATA 	Keypress: o
+355.2679 	DATA 	Keypress: o
+355.2696 	DATA 	Keypress: o
+355.2707 	Level onset of trial =299.000000 	25
+355.4921 	Level image=water.jpg 	25
+356.2669 	DATA 	Keypress: o
+356.2718 	Level injecting via pump at address 0 	25
+356.2720 	Level injecting via pump at address 0 	25
+356.2722 	Level post injecting via pump at address 0 	25
+362.2698 	DATA 	Keypress: o
+362.2710 	DATA 	Keypress: o
+362.2722 	DATA 	Keypress: o
+362.2901 	Level start wait 	25
+364.2714 	DATA 	Keypress: o
+364.2962 	Level NO RINSE 	25
+372.2640 	Level finished 	25
+372.2654 	DATA 	Keypress: o
+372.2668 	DATA 	Keypress: o
+372.2678 	DATA 	Keypress: o
+372.2688 	DATA 	Keypress: o
+372.2694 	Level onset of trial =316.000000 	25
+372.4699 	Level image=USL.jpg 	25
+373.2826 	Level injecting via pump at address 2 	25
+373.2827 	Level injecting via pump at address 2 	25
+373.2829 	Level post injecting via pump at address 2 	25
+379.2700 	DATA 	Keypress: o
+379.2714 	DATA 	Keypress: o
+379.2726 	DATA 	Keypress: o
+379.2842 	Level start wait 	25
+381.2695 	DATA 	Keypress: o
+381.2729 	Level RINSE 	25
+384.2714 	DATA 	Keypress: o
+384.2729 	DATA 	Keypress: o
+384.2850 	Level Start Jitter 	25
+389.2640 	Level finished 	25
+389.2655 	DATA 	Keypress: o
+389.2667 	DATA 	Keypress: o
+389.2674 	Level onset of trial =333.000000 	25
+389.4639 	Level image=SL.jpg 	25
+390.2668 	DATA 	Keypress: o
+390.2753 	Level injecting via pump at address 1 	25
+390.2755 	Level injecting via pump at address 1 	25
+390.2757 	Level post injecting via pump at address 1 	25
+396.2717 	DATA 	Keypress: o
+396.2734 	DATA 	Keypress: o
+396.2749 	DATA 	Keypress: o
+396.2863 	Level start wait 	25
+398.2699 	DATA 	Keypress: o
+398.2838 	Level RINSE 	25
+401.2704 	DATA 	Keypress: o
+401.2839 	Level Start Jitter 	25
+408.2640 	Level finished 	25
+408.2655 	DATA 	Keypress: o
+408.2665 	DATA 	Keypress: o
+408.2673 	DATA 	Keypress: o
+408.2683 	DATA 	Keypress: o
+408.2692 	Level onset of trial =352.000000 	25
+408.4799 	Level image=water.jpg 	25
+409.2760 	Level injecting via pump at address 0 	25
+409.2761 	Level injecting via pump at address 0 	25
+409.2763 	Level post injecting via pump at address 0 	25
+415.2715 	DATA 	Keypress: o
+415.2732 	DATA 	Keypress: o
+415.2748 	DATA 	Keypress: o
+415.2875 	Level start wait 	25
+417.2694 	DATA 	Keypress: o
+417.2829 	Level NO RINSE 	25
+426.2640 	Level finished 	25
+426.2656 	DATA 	Keypress: o
+426.2669 	DATA 	Keypress: o
+426.2681 	DATA 	Keypress: o
+426.2695 	DATA 	Keypress: o
+426.2708 	DATA 	Keypress: o
+426.2716 	Level onset of trial =370.000000 	25
+426.4682 	Level image=water.jpg 	25
+427.2803 	Level injecting via pump at address 0 	25
+427.2804 	Level injecting via pump at address 0 	25
+427.2807 	Level post injecting via pump at address 0 	25
+433.2688 	DATA 	Keypress: o
+433.2698 	DATA 	Keypress: o
+433.2709 	DATA 	Keypress: o
+433.2821 	Level start wait 	25
+435.2715 	DATA 	Keypress: o
+435.2890 	Level NO RINSE 	25
+449.2640 	Level finished 	25
+449.2656 	DATA 	Keypress: o
+449.2668 	DATA 	Keypress: o
+449.2680 	DATA 	Keypress: o
+449.2690 	DATA 	Keypress: o
+449.2699 	DATA 	Keypress: o
+449.2708 	DATA 	Keypress: o
+449.2720 	DATA 	Keypress: o
+449.2730 	Level onset of trial =393.000000 	25
+449.4803 	Level image=SL.jpg 	25
+450.2666 	DATA 	Keypress: o
+450.2731 	Level injecting via pump at address 1 	25
+450.2732 	Level injecting via pump at address 1 	25
+450.2735 	Level post injecting via pump at address 1 	25
+456.2706 	DATA 	Keypress: o
+456.2726 	DATA 	Keypress: o
+456.2739 	DATA 	Keypress: o
+456.2776 	Level start wait 	25
+458.2704 	DATA 	Keypress: o
+458.2838 	Level RINSE 	25
+461.2695 	DATA 	Keypress: o
+461.2849 	Level Start Jitter 	25
+469.2640 	Level finished 	25
+469.2654 	DATA 	Keypress: o
+469.2667 	DATA 	Keypress: o
+469.2679 	DATA 	Keypress: o
+469.2692 	DATA 	Keypress: o
+469.2701 	Level onset of trial =413.000000 	25
+469.5418 	Level image=water.jpg 	25
+470.2669 	DATA 	Keypress: o
+470.2872 	Level injecting via pump at address 0 	25
+470.2874 	Level injecting via pump at address 0 	25
+470.2876 	Level post injecting via pump at address 0 	25
+476.2708 	DATA 	Keypress: o
+476.2723 	DATA 	Keypress: o
+476.2737 	DATA 	Keypress: o
+476.2890 	Level start wait 	25
+478.2696 	DATA 	Keypress: o
+478.2784 	Level NO RINSE 	25
+487.2640 	Level finished 	25
+487.2657 	DATA 	Keypress: o
+487.2671 	DATA 	Keypress: o
+487.2683 	DATA 	Keypress: o
+487.2695 	DATA 	Keypress: o
+487.2702 	Level onset of trial =431.000000 	25
+487.4637 	Level image=USL.jpg 	25
+488.2670 	DATA 	Keypress: o
+488.2930 	Level injecting via pump at address 2 	25
+488.2932 	Level injecting via pump at address 2 	25
+488.2934 	Level post injecting via pump at address 2 	25
+494.2713 	DATA 	Keypress: o
+494.2732 	DATA 	Keypress: o
+494.2753 	DATA 	Keypress: o
+494.2931 	Level start wait 	25
+496.2714 	DATA 	Keypress: o
+496.2835 	Level RINSE 	25
+499.2704 	DATA 	Keypress: o
+499.2852 	Level Start Jitter 	25
+503.2640 	Level finished 	25

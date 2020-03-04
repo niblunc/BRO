@@ -1,0 +1,258 @@
+24.4846 	DATA 	Keypress: 4
+24.4857 	DATA 	Keypress: 5
+40.8105 	DATA 	Keypress: o
+40.8112 	Level start key press 	25
+42.8221 	DATA 	Keypress: o
+44.8223 	DATA 	Keypress: o
+46.8225 	DATA 	Keypress: o
+48.8226 	DATA 	Keypress: o
+49.3368 	Level image=tasty.jpg 	25
+50.2868 	Level injecting via pump at address 1 	25
+56.2752 	DATA 	Keypress: o
+56.2764 	DATA 	Keypress: o
+56.2775 	DATA 	Keypress: o
+56.3044 	Level WAIT 	25
+57.2729 	DATA 	Keypress: o
+57.3041 	Level RINSE 	25
+59.2848 	DATA 	Keypress: o
+59.3042 	Level jitter 	25
+68.2702 	Level finished 	25
+68.2718 	DATA 	Keypress: o
+68.2733 	DATA 	Keypress: o
+68.2745 	DATA 	Keypress: o
+68.2758 	DATA 	Keypress: o
+68.3051 	Level image=waterlogo.jpg 	25
+69.2727 	DATA 	Keypress: o
+69.2883 	Level injecting via pump at address 0 	25
+75.2759 	DATA 	Keypress: o
+75.2773 	DATA 	Keypress: o
+75.2785 	DATA 	Keypress: o
+75.3053 	Level WAIT 	25
+76.2887 	Level RINSE 	25
+78.2750 	DATA 	Keypress: o
+78.2892 	Level jitter 	25
+82.2702 	Level finished 	25
+82.2716 	DATA 	Keypress: o
+82.2729 	DATA 	Keypress: o
+82.3058 	Level image=tasty.jpg 	25
+83.2727 	DATA 	Keypress: o
+83.2893 	Level injecting via pump at address 1 	25
+89.2760 	DATA 	Keypress: o
+89.2774 	DATA 	Keypress: o
+89.2787 	DATA 	Keypress: o
+89.2900 	Level WAIT 	25
+90.2896 	Level RINSE 	25
+92.2754 	DATA 	Keypress: o
+92.2897 	Level jitter 	25
+96.2702 	Level finished 	25
+96.2720 	DATA 	Keypress: o
+96.2738 	DATA 	Keypress: o
+96.2901 	Level image=waterlogo.jpg 	25
+97.2730 	DATA 	Keypress: o
+97.2903 	Level injecting via pump at address 0 	25
+103.2757 	DATA 	Keypress: o
+103.2770 	DATA 	Keypress: o
+103.2783 	DATA 	Keypress: o
+103.3077 	Level WAIT 	25
+104.2906 	Level RINSE 	25
+106.2754 	DATA 	Keypress: o
+106.2907 	Level jitter 	25
+110.2702 	Level finished 	25
+110.2715 	DATA 	Keypress: o
+110.2728 	DATA 	Keypress: o
+110.3077 	Level image=waterlogo.jpg 	25
+111.2735 	DATA 	Keypress: o
+111.2910 	Level injecting via pump at address 0 	25
+117.2757 	DATA 	Keypress: o
+117.2770 	DATA 	Keypress: o
+117.2783 	DATA 	Keypress: o
+117.2919 	Level WAIT 	25
+118.2916 	Level RINSE 	25
+120.2748 	DATA 	Keypress: o
+120.2916 	Level jitter 	25
+124.2702 	Level finished 	25
+124.2715 	DATA 	Keypress: o
+124.2726 	DATA 	Keypress: o
+124.2920 	Level image=tasty.jpg 	25
+125.2731 	DATA 	Keypress: o
+125.2922 	Level injecting via pump at address 1 	25
+131.2754 	DATA 	Keypress: o
+131.2767 	DATA 	Keypress: o
+131.2779 	DATA 	Keypress: o
+131.2927 	Level WAIT 	25
+132.2925 	Level RINSE 	25
+134.2760 	DATA 	Keypress: o
+134.2926 	Level jitter 	25
+140.2702 	Level finished 	25
+140.2720 	DATA 	Keypress: o
+140.2733 	DATA 	Keypress: o
+140.2746 	DATA 	Keypress: o
+140.2932 	Level image=waterlogo.jpg 	25
+141.2727 	DATA 	Keypress: o
+141.2938 	Level injecting via pump at address 0 	25
+147.2758 	DATA 	Keypress: o
+147.2771 	DATA 	Keypress: o
+147.2784 	DATA 	Keypress: o
+147.2935 	Level WAIT 	25
+148.2770 	Level RINSE 	25
+150.2755 	DATA 	Keypress: o
+150.2937 	Level jitter 	25
+153.2702 	Level finished 	25
+153.2715 	DATA 	Keypress: o
+153.2726 	DATA 	Keypress: o
+153.2945 	Level image=tasty.jpg 	25
+154.2775 	Level injecting via pump at address 1 	25
+160.2754 	DATA 	Keypress: o
+160.2764 	DATA 	Keypress: o
+160.2774 	DATA 	Keypress: o
+160.2944 	Level WAIT 	25
+161.2727 	DATA 	Keypress: o
+161.2945 	Level RINSE 	25
+163.2757 	DATA 	Keypress: o
+163.2950 	Level jitter 	25
+166.2702 	Level finished 	25
+166.2723 	DATA 	Keypress: o
+166.2948 	Level image=waterlogo.jpg 	25
+167.2784 	Level injecting via pump at address 0 	25
+173.2791 	Level WAIT 	25
+174.2956 	Level RINSE 	25
+176.2789 	Level jitter 	25
+180.2702 	Level finished 	25
+180.2960 	Level image=waterlogo.jpg 	25
+181.2961 	Level injecting via pump at address 0 	25
+187.2969 	Level WAIT 	25
+188.2965 	Level RINSE 	25
+190.2966 	Level jitter 	25
+195.2702 	Level finished 	25
+195.2803 	Level image=tasty.jpg 	25
+196.2971 	Level injecting via pump at address 1 	25
+202.2979 	Level WAIT 	25
+203.2974 	Level RINSE 	25
+205.2809 	Level jitter 	25
+208.2702 	Level finished 	25
+208.2979 	Level image=waterlogo.jpg 	25
+209.2980 	Level injecting via pump at address 0 	25
+215.2987 	Level WAIT 	25
+216.2985 	Level RINSE 	25
+218.2985 	Level jitter 	25
+226.2702 	Level finished 	25
+226.2828 	Level image=tasty.jpg 	25
+227.2825 	Level injecting via pump at address 1 	25
+233.2829 	Level WAIT 	25
+234.2997 	Level RINSE 	25
+236.2836 	Level jitter 	25
+238.2702 	Level finished 	25
+238.3000 	Level image=tasty.jpg 	25
+239.2834 	Level injecting via pump at address 1 	25
+245.2837 	Level WAIT 	25
+246.2842 	Level RINSE 	25
+248.2839 	Level jitter 	25
+250.2702 	Level finished 	25
+250.3006 	Level image=waterlogo.jpg 	25
+251.2842 	Level injecting via pump at address 0 	25
+257.2850 	Level WAIT 	25
+258.2847 	Level RINSE 	25
+260.3014 	Level jitter 	25
+263.2702 	Level finished 	25
+263.3017 	Level image=tasty.jpg 	25
+264.2851 	Level injecting via pump at address 1 	25
+270.2859 	Level WAIT 	25
+271.2854 	Level RINSE 	25
+273.2856 	Level jitter 	25
+275.2702 	Level finished 	25
+275.3025 	Level image=waterlogo.jpg 	25
+276.2860 	Level injecting via pump at address 0 	25
+282.2869 	Level WAIT 	25
+283.2864 	Level RINSE 	25
+285.2864 	Level jitter 	25
+286.2702 	Level finished 	25
+286.2866 	Level image=tasty.jpg 	25
+287.2867 	Level injecting via pump at address 1 	25
+293.2875 	Level WAIT 	25
+294.2871 	Level RINSE 	25
+296.2872 	Level jitter 	25
+298.2702 	Level finished 	25
+298.2875 	Level image=waterlogo.jpg 	25
+299.2876 	Level injecting via pump at address 0 	25
+305.2883 	Level WAIT 	25
+306.2879 	Level RINSE 	25
+308.2879 	Level jitter 	25
+314.2702 	Level finished 	25
+314.2886 	Level image=waterlogo.jpg 	25
+315.2891 	Level injecting via pump at address 0 	25
+321.2890 	Level WAIT 	25
+322.2891 	Level RINSE 	25
+324.2892 	Level jitter 	25
+327.2702 	Level finished 	25
+327.2899 	Level image=tasty.jpg 	25
+328.2896 	Level injecting via pump at address 1 	25
+334.2900 	Level WAIT 	25
+335.2732 	Level RINSE 	25
+337.2905 	Level jitter 	25
+345.2702 	Level finished 	25
+345.2907 	Level image=waterlogo.jpg 	25
+346.2908 	Level injecting via pump at address 0 	25
+352.2916 	Level WAIT 	25
+353.2912 	Level RINSE 	25
+355.2913 	Level jitter 	25
+360.2702 	Level finished 	25
+360.2917 	Level image=tasty.jpg 	25
+361.2918 	Level injecting via pump at address 1 	25
+367.2927 	Level WAIT 	25
+368.2922 	Level RINSE 	25
+370.2923 	Level jitter 	25
+374.2702 	Level finished 	25
+374.2927 	Level image=waterlogo.jpg 	25
+375.2928 	Level injecting via pump at address 0 	25
+381.2936 	Level WAIT 	25
+382.2765 	Level RINSE 	25
+384.2933 	Level jitter 	25
+389.2702 	Level finished 	25
+389.2936 	Level image=tasty.jpg 	25
+390.2938 	Level injecting via pump at address 1 	25
+396.2947 	Level WAIT 	25
+397.2943 	Level RINSE 	25
+399.2943 	Level jitter 	25
+408.2702 	Level finished 	25
+408.2954 	Level image=waterlogo.jpg 	25
+409.2951 	Level injecting via pump at address 0 	25
+415.2954 	Level WAIT 	25
+416.2956 	Level RINSE 	25
+418.2961 	Level jitter 	25
+427.2702 	Level finished 	25
+427.2964 	Level image=tasty.jpg 	25
+428.2969 	Level injecting via pump at address 1 	25
+434.2968 	Level WAIT 	25
+435.2802 	Level RINSE 	25
+437.2970 	Level jitter 	25
+441.2702 	Level finished 	25
+441.2978 	Level image=tasty.jpg 	25
+442.2807 	Level injecting via pump at address 1 	25
+448.2810 	Level WAIT 	25
+449.2978 	Level RINSE 	25
+451.2818 	Level jitter 	25
+454.2702 	Level finished 	25
+454.2814 	Level image=waterlogo.jpg 	25
+455.2815 	Level injecting via pump at address 0 	25
+461.2824 	Level WAIT 	25
+462.2988 	Level RINSE 	25
+464.2822 	Level jitter 	25
+465.2702 	Level finished 	25
+465.2990 	Level image=tasty.jpg 	25
+466.2822 	Level injecting via pump at address 1 	25
+472.2998 	Level WAIT 	25
+473.2828 	Level RINSE 	25
+475.2996 	Level jitter 	25
+482.2702 	Level finished 	25
+482.2839 	Level image=waterlogo.jpg 	25
+483.2836 	Level injecting via pump at address 0 	25
+489.2839 	Level WAIT 	25
+490.2840 	Level RINSE 	25
+492.2846 	Level jitter 	25
+493.2702 	Level finished 	25
+493.3009 	Level image=tasty.jpg 	25
+494.3010 	Level injecting via pump at address 1 	25
+500.3013 	Level WAIT 	25
+501.2847 	Level RINSE 	25
+503.3020 	Level jitter 	25
+509.2702 	Level finished 	25

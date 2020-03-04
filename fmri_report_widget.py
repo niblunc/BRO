@@ -26,24 +26,43 @@ subjects = ['sub-001', 'sub-002', 'sub-003', 'sub-004', 'sub-005', 'sub-006', 's
 images_path = '/content/gdrive/My Drive/Projects/bromo/data/reports/fmri_images'
 images=glob.glob(os.path.join(images_path, "*.svg"))
 
-options=["fieldmap", "flirtbbr", "rois", "sdc", 'anat' "ALL"]
-sessions=["ses-1", "ses-2"]
-tasks = ['pe', 'training']
-runs=['run-1', 'run-2']
+options=["fieldmap", "flirtbbr", "brain mask", "sdc", 'anat', "ALL"]
+sessions=["ses-1", "ses-2", "ALL"]
+tasks = ['pe', 'training',  "ALL"]
+runs=['run-1', 'run-2',  "ALL"]
 
 
 
 
 def show_svg(image, subject, session, task,run):
+    
+    ## View Individual Files:
+    
+    
+        
     if image=="fieldmap":
         filename='{}_{}_task-{}_{}_desc-fieldmap_bold.svg'.format(subject, session, task, run)
         filepath = os.path.join(images_path, filename)
-        try:
-            print("\nFIELDMAP \n")
-            display(SVG(filename=filepath))
-            print("FILE: {} \n".format(filename))
-        except:
-            print('image {} unavailable'.format(filename))
+        if session == "ALL":
+            if task == "ALL":
+                if runs == "ALL":
+                    filename_s1='{}_{}_task-{}_{}_desc-fieldmap_bold.svg'.format(subject, "ses-1", task, run)
+                    filepath_s1 = os.path.join(images_path, filename_s1)
+                    filename_s2='{}_{}_task-{}_{}_desc-fieldmap_bold.svg'.format(subject, "ses-2", task, run)
+                    filepath_s2 = os.path.join(images_path, filename_s2)
+
+                    try:
+                        print("\nEPI: \n")
+                        display(SVG(filename=filepath_s1))
+                        print("FILE: {} \n".format(filename_s1))
+                    except:
+                        print('image {} unavailable'.format(filename_s1))
+                    try:
+                        print("\nEPI: \n")
+                        display(SVG(filename=filepath_s2))
+                        print("FILE: {} \n".format(filename_s2))
+                    except:
+                        print('image {} unavailable'.format(filename_s2))
             
     elif image=='flirtbbr':
         filename='{}_{}_task-{}_{}_desc-flirtbbr_bold.svg'.format(subject, session, task, run)
@@ -69,11 +88,11 @@ def show_svg(image, subject, session, task,run):
         except:
             print('image {} unavailable'.format(filename))
         
-    elif image == 'rois':
-        filename='{}_{}_task-{}_{}_desc-rois_bold.svg'.format(subject, session, task, run)
+    elif image == 'brain mask':
+        filename='{}_{}_desc-brain_mask.svg'.format(subject, session)
         filepath = os.path.join(images_path, filename)
         try:
-            print("\nROIS \n")
+            print("\nBrain Mask: \n")
             display(SVG(filename=filepath))
             print("FILE: {} \n".format(filename))
         except:
@@ -89,13 +108,14 @@ def show_svg(image, subject, session, task,run):
         except:
             print('image {} unavailable'.format(filename))
             
+            
     elif image=="ALL":
         
         anat_filename='{}_space-MNI152NLin2009cAsym_T1w.svg'.format(subject)
-        anat_filepath = os.path.join(images_path, filename)
+        anat_filepath = os.path.join(images_path, anat_filename)
         try:
             print("\nANAT T1w: \n")
-            display(SVG(anat_filename=filepath))
+            display(SVG(filename=anat_filepath))
             print("FILE: {} \n".format(anat_filename))
             print("\n\n")
         except:
@@ -113,26 +133,27 @@ def show_svg(image, subject, session, task,run):
             print('image {} unavailable'.format(sdc_filename))
             
             
-        rois_filename='{}_{}_task-{}_{}_desc-rois_bold.svg'.format(subject, session, task, run)
-        rois_filepath = os.path.join(images_path, rois_filename)
-        try:
-            print("FLIRTBBR: \n")
-            display(SVG(filename=rois_filepath))
-            print("FILE: ", rois_filename)
-            print("\n\n")
-        except:
-            print('image {} unavailable'.format(rois_filename))
-            
-
         flirt_filename='{}_{}_task-{}_{}_desc-flirtbbr_bold.svg'.format(subject, session, task, run)
         flirt_filepath = os.path.join(images_path, flirt_filename)
+        
         try:
-            print("ROIS \n")
+            print("FLIRT: \n")
             display(SVG(filename=flirt_filepath))
             print("FILE: ", flirt_filename)
             print("\n\n")
         except:
             print('image {} unavailable'.format(flirt_filename))
+            
+
+        mask_filename='{}_{}_desc-brain_mask.svg'.format(subject, session)
+        mask_filepath = os.path.join(images_path, mask_filename)
+        try:
+            print("Brain Mask: \n")
+            display(SVG(filename=mask_filepath))
+            print("FILE: ", mask_filename)
+            print("\n\n")
+        except:
+            print('image {} unavailable'.format(mask_filename))
             
         
         field_filename='{}_{}_task-{}_{}_desc-fieldmap_bold.svg'.format(subject, session, task, run)
