@@ -13,7 +13,7 @@ subjects = ['sub-001', 'sub-002', 'sub-003', 'sub-004', 'sub-005', 'sub-006', 's
             'sub-022', 'sub-023', 'sub-024', 'sub-025', 'sub-026', 'sub-027', 'sub-028', 
             'sub-029', 'sub-030', 'sub-031', 'sub-032', 'sub-033', 'sub-034', 'sub-035', 
             'sub-036', 'sub-037', 'sub-038', 'sub-039', 'sub-040', 'sub-041', 'sub-042', 
-            'sub-043', 'sub-044', 'sub-045', 'sub-046', 'sub-047', 'sub-048', 'sub-04z9', 
+            'sub-043', 'sub-044', 'sub-045', 'sub-046', 'sub-047', 'sub-048', 'sub-049', 
             'sub-050', 'sub-051', 'sub-052', 'sub-053', 'sub-054', 'sub-055', 'sub-056']
 
 
@@ -26,7 +26,7 @@ subjects = ['sub-001', 'sub-002', 'sub-003', 'sub-004', 'sub-005', 'sub-006', 's
 images_path = '/content/gdrive/My Drive/Projects/bromo/data/reports/fmri_images'
 images=glob.glob(os.path.join(images_path, "*.svg"))
 
-options=["fieldmap", "flirtbbr", "rois", "sdc", "ALL"]
+options=["fieldmap", "flirtbbr", "rois", "sdc", 'anat' "ALL"]
 sessions=["ses-1", "ses-2"]
 tasks = ['pe', 'training']
 runs=['run-1', 'run-2']
@@ -55,6 +55,19 @@ def show_svg(image, subject, session, task,run):
             
         except:
             print('image {} unavailable'.format(filename))
+            
+    elif image=='anat':
+        #sub-030_space-MNI152NLin2009cAsym_T1w.svg 
+        
+        filename='{}_space-MNI152NLin2009cAsym_T1w.svg'.format(subject)
+        filepath = os.path.join(images_path, filename)
+        try:
+            print("\nANAT T1w: \n")
+            display(SVG(filename=filepath))
+            print("FILE: {} \n".format(filename))
+            
+        except:
+            print('image {} unavailable'.format(filename))
         
     elif image == 'rois':
         filename='{}_{}_task-{}_{}_desc-rois_bold.svg'.format(subject, session, task, run)
@@ -77,10 +90,22 @@ def show_svg(image, subject, session, task,run):
             print('image {} unavailable'.format(filename))
             
     elif image=="ALL":
+        
+        anat_filename='{}_space-MNI152NLin2009cAsym_T1w.svg'.format(subject)
+        anat_filepath = os.path.join(images_path, filename)
+        try:
+            print("\nANAT T1w: \n")
+            display(SVG(anat_filename=filepath))
+            print("FILE: {} \n".format(anat_filename))
+            print("\n\n")
+        except:
+            print('image {} unavailable'.format(anat_filename))
+        
+        
         sdc_filename='{}_{}_task-{}_{}_desc-sdc_bold.svg'.format(subject, session, task, run)
         sdc_filepath = os.path.join(images_path, sdc_filename)
         try:
-            print("FIELDMAP \n")
+            print("SDC \n")
             display(SVG(filename=sdc_filepath))
             print("FILE: ", sdc_filename)
             print("\n\n")
