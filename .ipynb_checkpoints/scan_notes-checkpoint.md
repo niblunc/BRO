@@ -20,6 +20,6 @@ sub-052:
 * session-1, pe run-1 file has bad volume, run-2 is good.  
     * Note: scan notes indiciate pe run-1 was stopped and not completed.  
 
-sub-055: *subject may need to be eliminated.*     
+sub-055:  *may need to be eliminate subject*     
 * session-1, training run-1 and run-2, and pe run-1 and run-2 all have bad volumes.   
     * Note: session-2 files all have good volumes, scan notes don't reveal scans were complete but pump did have issue.  
