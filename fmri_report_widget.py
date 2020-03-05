@@ -6,6 +6,7 @@ from IPython.display import SVG, display
 
 pd.set_option('display.max_rows', 200)
 pd.set_option('display.max_columns', 200)
+pd.set_option('display.max_colwidth', -1)
 
 subjects = ['sub-001', 'sub-002', 'sub-003', 'sub-004', 'sub-005', 'sub-006', 'sub-007', 
             'sub-008', 'sub-009', 'sub-010', 'sub-011', 'sub-012', 'sub-013', 'sub-014', 
