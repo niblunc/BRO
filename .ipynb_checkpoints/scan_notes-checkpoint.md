@@ -1,7 +1,8 @@
 # Scan Notes:  
 
-sub-006: session-1, all functional volumes are bad, with no extra runs, scan notes don't indicate issues. *may need to eliminate subject*  
-* Note: session-2 has good volumes for all files.  
+sub-006:  
+* session-1, all functional volumes are bad, with no extra runs, scan notes don't indicate issues. *may need to eliminate subject*  
+    * Note: session-2 has good volumes for all files.  
 
 sub-020: session-1, task-pe_run-1 has bad volume, training_run-2 and pe_run-2 file are missing.  
 * Note: scan notes indicate participant had to stop, there files were not complete. *may need to eliminate subject*  
