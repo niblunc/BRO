@@ -1,5 +1,8 @@
 # Scan Notes:  
 
+sub-003:  
+* session-2, resting state and anat scan missing.  
+
 sub-005: *may need to eliminate subject*  
 * session-2 not complete for subject, session-1 notes do indicate the PE tasks were note complete and training run-2 was not complete, due to subject getting sick.  
 
