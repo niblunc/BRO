@@ -1,4 +1,4 @@
-# BRO
+# Bromocriptine analysis
 
 ## About  
 NIBL Bro Experiment, in development  
