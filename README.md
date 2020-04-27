@@ -1,7 +1,7 @@
 # Bromocriptine analysis
 
 ## About  
-NIBL Bro Experiment, in development  
+NIBL Bromocriptine Experiment, in development  
 
 Main Contributors: NIBL team  
 
